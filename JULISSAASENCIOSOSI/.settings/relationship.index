@@ -1,0 +1,383 @@
+[ {
+  "baseItem" : {
+    "id" : "_-pLAwOn-Ee2iGP23S3Wl_A",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_GSz5ULxlEe2ydcvYzmy6-Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_ADMI",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_EMPR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_TEMA_PREG",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_T_DEJU",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_T_DEJU_RESP",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_WmECAOqfEe2NZstndR7wRg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_JQDVMOuGEe2u4M0R-FNErQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PipRcOuCEe2u4M0R-FNErQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_ADMI",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_EMPR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_T_DEJU",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_T_DEJU_RESP",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iSLdAKyoEe2pDKvO7RSqvw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MoaW8KcQEe2MZZtZFYykmQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TRAZABILIDADDOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_p4EkgKcPEe2MZZtZFYykmQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MoaW8KcQEe2MZZtZFYykmQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - ACCION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DETALLEENVIOMENSAJERIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DETALLENOTIFICACION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DISTRITO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DOCUMENTOFEDATARIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - ESTADO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - ESTADOCARGO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - EXPEDIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - EXPEDIENTEXDOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - IOTDTC_DESPACHO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - IOTDTC_RECEPCION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - IOTDTD_DOC_PRINCIPAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - IOTDTM_DOC_EXTERNO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - MENSAJERIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - PROCESO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - PROVINCIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - PVV_TD_DOC_EXPEDIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SEDE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SGD_TD_DOCUMENTOIMAGEN",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SGD_TM_CONFIGURACIONIMAGEN",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SGD_TZ_MP_VIRTUAL_SIGED",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TIPODOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TIPOENVIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TIPOIDENTIFICACION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TRAZABILIDADCOPIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TRAZABILIDADDOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - UNIDAD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - USUARIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - USUARIOXROL",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_p4EkgKcPEe2MZZtZFYykmQ",
+    "version" : "0.2",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_MoaW8KcQEe2MZZtZFYykmQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - ACCION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - CLIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DETALLEENVIOMENSAJERIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DETALLENOTIFICACION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DISTRITO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - DOCUMENTOFEDATARIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - ESTADO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - ESTADOCARGO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - EXPEDIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - EXPEDIENTEXDOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - IOTDTM_DOC_EXTERNO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - MENSAJERIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - PROCESO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - PROVINCIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - PVV_TD_DOC_EXPEDIENTE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SEDE",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SGD_TD_DOCUMENTOIMAGEN",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SGD_TM_CONFIGURACIONIMAGEN",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - SGD_TZ_MP_VIRTUAL_SIGED",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TIPODOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TIPOENVIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TIPOIDENTIFICACION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TRAZABILIDADCOPIA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - TRAZABILIDADDOCUMENTO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - UNIDAD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - USUARIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_rq78MKcCEe2MZZtZFYykmQ - USUARIOXROL",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_xKGxUL7BEe2tv4WJcw0awg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_FccqkOLcEe292frVDOptnw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_ADMI",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_M_EMPR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_T_DEJU",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LtjmYLnWEe24zrR24ve_6Q - DGN_T_DEJU_RESP",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

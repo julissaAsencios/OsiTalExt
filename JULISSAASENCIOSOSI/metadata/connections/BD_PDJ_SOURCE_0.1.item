@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Oracle with SID" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" FileFieldName="" NullChar="" Password="enc:system.encryption.key.v1:zITjFBK9N/Y1xi61I8U6vaE22GvDZuAy47ddTG4bkkIt" Port="1521" ProductId="ORACLE" SID="DESAGLP" SQLMode="false" ServerName="10.10.23.13" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:oracle:thin:@10.10.23.13:1521:DESAGLP" UiSchema="PDJ_ADM" Username="US_BIGDATAGN_PDJ_OR" dataPackage="_nLVNULnaEe24zrR24ve_6Q" dbVersionString="ORACLE_11" id="_LtjmYLnWEe24zrR24ve_6Q" label="BD_PDJ_SOURCE" name="BD_PDJ_SOURCE" supportNLS="false" xmi:id="_Q8CoALnXEe24zrR24ve_6Q">
+    <taggedValue tag="Is Conn Need Reload" value="true" xmi:id="_Q8D2ILnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="package filter" value="" xmi:id="_Q9Z58LnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="Status" value="" xmi:id="_Q9kSALnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_Q9kSAbnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_Q9kSArnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="Description" value="" xmi:id="_Q9kSA7nXEe24zrR24ve_6Q"/>
+    <taggedValue tag="Author" value="" xmi:id="_Q9kSBLnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="otherParameter" xmi:id="_Q9kSBbnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_Q-bNoLnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production&#10;With the Partitioning, OLAP, Data Mining and Real Application Testing options" xmi:id="_Q-bNobnXEe24zrR24ve_6Q"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_Q-bNornXEe24zrR24ve_6Q"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="US_BIGDATAGN_PDJ_OR" xmi:id="_Q8D2IbnXEe24zrR24ve_6Q"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_hysKILnZEe24zrR24ve_6Q"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_Q8CoALnXEe24zrR24ve_6Q" name="PDJ_ADM" xmi:id="_nLVNULnaEe24zrR24ve_6Q">
+    <ownedElement comment="Listado de administrados." id="_ICiT4LnbEe24zrR24ve_6Q" label="DGN_M_ADMI" name="DGN_M_ADMI" tableType="TABLE" xmi:id="_ICoagLnbEe24zrR24ve_6Q" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Listado de administrados." xmi:id="_ICoagbnbEe24zrR24ve_6Q"/>
+      <feature comment="Código interno del administrado." key="true" label="ADMI_CODIGO" length="10" name="ADMI_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_ICoagrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno del administrado." xmi:id="_ICoag7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoahLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_ICoahbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Cógido interno de la empresa." label="EMPR_CODIGO" length="10" name="EMPR_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_ICoahrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Cógido interno de la empresa." xmi:id="_ICoah7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoaiLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_ICoaibnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código de OSINERMIG." label="ADMI_OSINER" length="8" name="ADMI_OSINER" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_ICoairnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código de OSINERMIG." xmi:id="_ICoai7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoajLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_ICoajbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código del ámbito." label="AMBI_CODIGO" length="2" name="AMBI_CODIGO" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_ICoajrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código del ámbito." xmi:id="_ICoaj7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoakLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_ICoakbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Nombre del local (Administrado)." label="ADMI_NOMLOC" length="150" name="ADMI_NOMLOC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoakrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Nombre del local (Administrado)." xmi:id="_ICoak7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoalLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoalbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Dirección del local del adminitrado." label="ADMI_DIRECC" length="150" name="ADMI_DIRECC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoalrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Dirección del local del adminitrado." xmi:id="_ICoal7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoamLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoambnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de inicio de operaciones del administrado para el sistema." label="ADMI_FECSIS" length="7" name="ADMI_FECSIS" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ICoamrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de inicio de operaciones del administrado para el sistema." xmi:id="_ICoam7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoanLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ICoanbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Resolución Directoral." label="ADMI_RESDIR" length="300" name="ADMI_RESDIR" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoanrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Resolución Directoral." xmi:id="_ICoan7nbEe24zrR24ve_6Q"/>
+        <initialValue body="''" language="COLUMN_DEF" xmi:id="_ICoaoLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoaobnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Estado del Administrado (Tabla de tablas)." label="TTAB_ESADMI" length="7" name="TTAB_ESADMI" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_ICoaornbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Estado del Administrado (Tabla de tablas)." xmi:id="_ICoao7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoapLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_ICoapbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Tipo de documento del representante legal." label="TTAB_TIPDOC" length="7" name="TTAB_TIPDOC" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_ICoaprnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Tipo de documento del representante legal." xmi:id="_ICoap7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoaqLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_ICoaqbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Número del documento de representante legal." label="ADMI_LEGDOC" length="20" name="ADMI_LEGDOC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoaqrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Número del documento de representante legal." xmi:id="_ICoaq7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoarLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoarbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Nombres y apellidos del representante legal." label="ADMI_LEGNOM" length="100" name="ADMI_LEGNOM" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoarrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Nombres y apellidos del representante legal." xmi:id="_ICoar7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoasLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoasbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de creación el registro." label="ADD_FEC" length="7" name="ADD_FEC" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ICoasrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación el registro." xmi:id="_ICoas7nbEe24zrR24ve_6Q"/>
+        <initialValue body="'SYSDATE'" language="COLUMN_DEF" xmi:id="_ICoatLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_ICoatbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que crea el registro." label="ADD_USE" length="50" name="ADD_USE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoatrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que crea el registro." xmi:id="_ICoat7nbEe24zrR24ve_6Q"/>
+        <initialValue body="'00000000'" language="COLUMN_DEF" xmi:id="_ICoauLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoaubnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se crea el registro." label="ADD_IP" length="50" name="ADD_IP" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoaurnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se crea el registro." xmi:id="_ICoau7nbEe24zrR24ve_6Q"/>
+        <initialValue body="'127.0.0.1'" language="COLUMN_DEF" xmi:id="_ICoavLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_ICoavbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de modificación el registro." label="MODI_FEC" length="7" name="MODI_FEC" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_ICoavrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de modificación el registro." xmi:id="_ICoav7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoawLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ICoawbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que modifica el registro." label="MODI_USE" length="50" name="MODI_USE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoawrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que modifica el registro." xmi:id="_ICoaw7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoaxLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ICoaxbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se modifica el registro." label="MODI_IP" length="50" name="MODI_IP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoaxrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se modifica el registro." xmi:id="_ICoax7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoayLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ICoaybnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Descripción del administrado." label="ADMI_DESCRI" length="500" name="ADMI_DESCRI" sourceType="VARCHAR2" talendType="id_String" xmi:id="_ICoayrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Descripción del administrado." xmi:id="_ICoay7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoazLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ICoazbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Sector al que pertenece el administrado." label="TTAB_SECTOR" length="7" name="TTAB_SECTOR" sourceType="CHAR" talendType="id_String" xmi:id="_ICoazrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Sector al que pertenece el administrado." xmi:id="_ICoaz7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_ICoa0LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_ICoa0bnbEe24zrR24ve_6Q"/>
+      </feature>
+    </ownedElement>
+    <ownedElement comment="Listado de respuestas de la Declaración Jurada." id="_IFBAILnbEe24zrR24ve_6Q" label="DGN_T_DEJU_RESP" name="DGN_T_DEJU_RESP" tableType="TABLE" xmi:id="_IFHGwLnbEe24zrR24ve_6Q" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Listado de respuestas de la Declaración Jurada." xmi:id="_IFHGwbnbEe24zrR24ve_6Q"/>
+      <feature comment="Código interno de la Declaración Jurada." key="true" label="DEJU_CODIGO" length="10" name="DEJU_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IFHGwrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la Declaración Jurada." xmi:id="_IFHGw7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IFHGxLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IFHGxbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno de la pregunta." key="true" label="TEMA_PREG_CODIGO" length="10" name="TEMA_PREG_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IFHGxrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la pregunta." xmi:id="_IFHGx7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IFHGyLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IFHGybnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Respuesta de la pregunta: (Tabla de tablas)&#10;SI&#10;NO&#10;NA" label="TTAB_RESP_RPTA" length="7" name="TTAB_RESP_RPTA" sourceType="CHAR" talendType="id_String" xmi:id="_IFHGyrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Respuesta de la pregunta: (Tabla de tablas)&#10;SI&#10;NO&#10;NA" xmi:id="_IFHGy7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IFHGzLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IFHGzbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la respuesta fue contestada con cumplimiento." label="DEJU_RESP_OK" length="1" name="DEJU_RESP_OK" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IFHGzrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la respuesta fue contestada con cumplimiento." xmi:id="_IFHGz7nbEe24zrR24ve_6Q"/>
+        <initialValue body="0" language="COLUMN_DEF" xmi:id="_IFHG0LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IFHG0bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de creación el registro." label="ADD_FEC" length="7" name="ADD_FEC" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_IFHG0rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación el registro." xmi:id="_IFHG07nbEe24zrR24ve_6Q"/>
+        <initialValue body="'SYSDATE'" language="COLUMN_DEF" xmi:id="_IFHG1LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_IFHG1bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que crea el registro." label="ADD_USE" length="50" name="ADD_USE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IFHG1rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que crea el registro." xmi:id="_IFHG17nbEe24zrR24ve_6Q"/>
+        <initialValue body="'00000000'" language="COLUMN_DEF" xmi:id="_IFHG2LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_IFHG2bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se crea el registro." label="ADD_IP" length="50" name="ADD_IP" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IFHG2rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se crea el registro." xmi:id="_IFHG27nbEe24zrR24ve_6Q"/>
+        <initialValue body="'127.0.0.1'" language="COLUMN_DEF" xmi:id="_IFHG3LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_IFHG3bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de modificación el registro." label="MODI_FEC" length="7" name="MODI_FEC" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_IFHG3rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de modificación el registro." xmi:id="_IFHG37nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IFHG4LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IFHG4bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que modifica el registro." label="MODI_USE" length="50" name="MODI_USE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IFHG4rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que modifica el registro." xmi:id="_IFHG47nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IFHG5LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IFHG5bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se modifica el registro." label="MODI_IP" length="50" name="MODI_IP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IFHG5rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se modifica el registro." xmi:id="_IFHG57nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IFHG6LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IFHG6bnbEe24zrR24ve_6Q"/>
+      </feature>
+    </ownedElement>
+    <ownedElement comment="Listado de Declaraciones Juradas." id="_INPvELnbEe24zrR24ve_6Q" label="DGN_T_DEJU" name="DGN_T_DEJU" tableType="TABLE" xmi:id="_INPvEbnbEe24zrR24ve_6Q" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Listado de Declaraciones Juradas." xmi:id="_INPvErnbEe24zrR24ve_6Q"/>
+      <feature comment="Código interno de la Declaración Jurada." key="true" label="DEJU_CODIGO" length="10" name="DEJU_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvE7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la Declaración Jurada." xmi:id="_INPvFLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvFbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_INPvFrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código único de identificación de la DJ." label="DEJU_IDENTI" length="40" name="DEJU_IDENTI" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvF7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código único de identificación de la DJ." xmi:id="_INPvGLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvGbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvGrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno del administrado." label="ADMI_CODIGO" length="10" name="ADMI_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvG7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno del administrado." xmi:id="_INPvHLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvHbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_INPvHrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno de la Declaración Jurada Programada." label="PROG_CODIGO" length="10" name="PROG_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvH7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la Declaración Jurada Programada." xmi:id="_INPvILnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvIbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_INPvIrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno del registro de inicio de operaciones." label="INIO_CODIGO" length="10" name="INIO_CODIGO" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvI7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno del registro de inicio de operaciones." xmi:id="_INPvJLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvJbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvJrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno de la variación de Condiciones." label="VARC_CODIGO" length="10" name="VARC_CODIGO" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvJ7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la variación de Condiciones." xmi:id="_INPvKLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvKbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvKrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Clase de Declaración Jurada (Tabla de tablas):&#10;Declaración Jurada Primaria&#10;Declaracion Sub Sanatoria." label="TTAB_CLASE" length="7" name="TTAB_CLASE" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_INPvK7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Clase de Declaración Jurada (Tabla de tablas):&#10;Declaración Jurada Primaria&#10;Declaracion Sub Sanatoria." xmi:id="_INPvLLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvLbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_INPvLrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno de la Declaración Jurada que es subsanatoria de esta." label="DEJU_CODSUB" length="10" name="DEJU_CODSUB" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvL7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la Declaración Jurada que es subsanatoria de esta." xmi:id="_INPvMLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvMbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvMrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno de la declaración jurada con la cual se realizo la prsentación automática." label="DEJU_CODPRE" length="10" name="DEJU_CODPRE" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvM7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la declaración jurada con la cual se realizo la prsentación automática." xmi:id="_INPvNLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvNbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvNrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la declaración jurada esta vacía." label="DEJU_DECVAC" length="1" name="DEJU_DECVAC" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvN7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la declaración jurada esta vacía." xmi:id="_INPvOLnbEe24zrR24ve_6Q"/>
+        <initialValue body="0" language="COLUMN_DEF" xmi:id="_INPvObnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_INPvOrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de inicio del plazo de presentación de la Declaración Jurada.." label="DEJU_FECINI" length="7" name="DEJU_FECINI" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_INPvO7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de inicio del plazo de presentación de la Declaración Jurada.." xmi:id="_INPvPLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvPbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_INPvPrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de finalización del plazo de presentación de la Declaración Jurada." label="DEJU_FECFIN" length="7" name="DEJU_FECFIN" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_INPvP7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de finalización del plazo de presentación de la Declaración Jurada." xmi:id="_INPvQLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvQbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_INPvQrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de presentación de la Declaración Jurada." label="DEJU_FECPRE" length="7" name="DEJU_FECPRE" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_INPvQ7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de presentación de la Declaración Jurada." xmi:id="_INPvRLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvRbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvRrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Observaciones." label="DEJU_OBSERV" length="400" name="DEJU_OBSERV" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvR7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Observaciones." xmi:id="_INPvSLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvSbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvSrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código del estado." label="ESTA_CODIGO" length="3" name="ESTA_CODIGO" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_INPvS7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código del estado." xmi:id="_INPvTLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvTbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_INPvTrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Estado de llenado de respuestas (Tabla de tablas)&#10;-Incompleto : falta responder preguntas&#10;-Completo    : respondio todas las preguntas y subpreguntas&#10;" label="TTAB_ESCOMP" length="7" name="TTAB_ESCOMP" sourceType="CHAR" talendType="id_String" xmi:id="_INPvT7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Estado de llenado de respuestas (Tabla de tablas)&#10;-Incompleto : falta responder preguntas&#10;-Completo    : respondio todas las preguntas y subpreguntas&#10;" xmi:id="_INPvULnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvUbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvUrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Estado de cumplimiento de acuerdo a las  respuestas (Tabla de tablas)&#10;-Con incumplimiento(s)&#10;-Sin incumplimiento(s)" label="TTAB_ESCUMP" length="7" name="TTAB_ESCUMP" sourceType="CHAR" talendType="id_String" xmi:id="_INPvU7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Estado de cumplimiento de acuerdo a las  respuestas (Tabla de tablas)&#10;-Con incumplimiento(s)&#10;-Sin incumplimiento(s)" xmi:id="_INPvVLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvVbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvVrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Número de RUC del administrado." label="DEJU_EMPRUC" length="11" name="DEJU_EMPRUC" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_INPvV7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Número de RUC del administrado." xmi:id="_INPvWLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvWbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_INPvWrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Razón social del administrado." label="DEJU_RAZSOC" length="150" name="DEJU_RAZSOC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvW7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Razón social del administrado." xmi:id="_INPvXLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvXbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvXrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código del tipo de documento de identidad (Tabla de tablas)." label="TTAB_TIPDOC" length="7" name="TTAB_TIPDOC" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_INPvX7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código del tipo de documento de identidad (Tabla de tablas)." xmi:id="_INPvYLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvYbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_INPvYrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Número del documento de identidad." label="DEJU_LEGDOC" length="20" name="DEJU_LEGDOC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvY7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Número del documento de identidad." xmi:id="_INPvZLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvZbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvZrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Apellidos y Nombres del representante legal." label="DEJU_LEGNOM" length="150" name="DEJU_LEGNOM" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvZ7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Apellidos y Nombres del representante legal." xmi:id="_INPvaLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvabnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvarnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Nombre del local (Administrado)" label="DEJU_NOMLOC" length="80" name="DEJU_NOMLOC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPva7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Nombre del local (Administrado)" xmi:id="_INPvbLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvbbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvbrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de creación el registro." label="ADD_FEC" length="7" name="ADD_FEC" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_INPvb7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación el registro." xmi:id="_INPvcLnbEe24zrR24ve_6Q"/>
+        <initialValue body="'SYSDATE'" language="COLUMN_DEF" xmi:id="_INPvcbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_INPvcrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que crea el registro." label="ADD_USE" length="50" name="ADD_USE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvc7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que crea el registro." xmi:id="_INPvdLnbEe24zrR24ve_6Q"/>
+        <initialValue body="'00000000'" language="COLUMN_DEF" xmi:id="_INPvdbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvdrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se crea el registro." label="ADD_IP" length="50" name="ADD_IP" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvd7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se crea el registro." xmi:id="_INPveLnbEe24zrR24ve_6Q"/>
+        <initialValue body="'127.0.0.1'" language="COLUMN_DEF" xmi:id="_INPvebnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_INPvernbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de modificación el registro." label="MODI_FEC" length="7" name="MODI_FEC" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_INPve7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de modificación el registro." xmi:id="_INPvfLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvfbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvfrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que modifica el registro." label="MODI_USE" length="50" name="MODI_USE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvf7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que modifica el registro." xmi:id="_INPvgLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvgbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvgrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se modifica el registro." label="MODI_IP" length="50" name="MODI_IP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_INPvg7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se modifica el registro." xmi:id="_INPvhLnbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_INPvhbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvhrnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha en que se modificó presentación fuera de plazo de la DJ" label="DEJU_MODI_PREFP" length="7" name="DEJU_MODI_PREFP" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_INPvh7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha en que se modificó presentación fuera de plazo de la DJ" xmi:id="_INPviLnbEe24zrR24ve_6Q"/>
+        <initialValue body="'sysdate'" language="COLUMN_DEF" xmi:id="_INPvibnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvirnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica que se habilitó presentación fuera de plazo de la DJ - 1 Habilitado, 0 Deshabilitado" label="DEJU_PREFP" length="38" name="DEJU_PREFP" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_INPvi7nbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica que se habilitó presentación fuera de plazo de la DJ - 1 Habilitado, 0 Deshabilitado" xmi:id="_INPvjLnbEe24zrR24ve_6Q"/>
+        <initialValue body="0" language="COLUMN_DEF" xmi:id="_INPvjbnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_INPvjrnbEe24zrR24ve_6Q"/>
+      </feature>
+    </ownedElement>
+    <ownedElement comment="Listado de preguntas." id="_IUVOgLnbEe24zrR24ve_6Q" label="DGN_M_TEMA_PREG" name="DGN_M_TEMA_PREG" tableType="TABLE" xmi:id="_IUWcoLnbEe24zrR24ve_6Q" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Listado de preguntas." xmi:id="_IUWcobnbEe24zrR24ve_6Q"/>
+      <feature comment="Código interno de la pregunta." key="true" label="TEMA_PREG_CODIGO" length="10" name="TEMA_PREG_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcornbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la pregunta." xmi:id="_IUWco7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWcpLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcpbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno del cuestionario." label="CUES_CODIGO" length="10" name="CUES_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcprnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno del cuestionario." xmi:id="_IUWcp7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWcqLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcqbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código interno del tema por cuestionario." label="CUES_TEMA_CODIGO" length="10" name="CUES_TEMA_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcqrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno del tema por cuestionario." xmi:id="_IUWcq7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWcrLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcrbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la opción 'SI' esta activado." label="TEMA_PREG_HABSI" length="1" name="TEMA_PREG_HABSI" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcrrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la opción 'SI' esta activado." xmi:id="_IUWcr7nbEe24zrR24ve_6Q"/>
+        <initialValue body="1" language="COLUMN_DEF" xmi:id="_IUWcsLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcsbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la opción 'NO' esta activado." label="TEMA_PREG_HABNO" length="1" name="TEMA_PREG_HABNO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcsrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la opción 'NO' esta activado." xmi:id="_IUWcs7nbEe24zrR24ve_6Q"/>
+        <initialValue body="1" language="COLUMN_DEF" xmi:id="_IUWctLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWctbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la opción 'NA' esta activado." label="TEMA_PREG_HABNA" length="1" name="TEMA_PREG_HABNA" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWctrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la opción 'NA' esta activado." xmi:id="_IUWct7nbEe24zrR24ve_6Q"/>
+        <initialValue body="0" language="COLUMN_DEF" xmi:id="_IUWcuLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcubnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la opción 'SI' indica cumplimiento." label="TEMA_PREG_OKSI" length="1" name="TEMA_PREG_OKSI" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcurnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la opción 'SI' indica cumplimiento." xmi:id="_IUWcu7nbEe24zrR24ve_6Q"/>
+        <initialValue body="1" language="COLUMN_DEF" xmi:id="_IUWcvLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcvbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la opción 'NO' indica cumplimiento." label="TEMA_PREG_OKNO" length="1" name="TEMA_PREG_OKNO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcvrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la opción 'NO' indica cumplimiento." xmi:id="_IUWcv7nbEe24zrR24ve_6Q"/>
+        <initialValue body="0" language="COLUMN_DEF" xmi:id="_IUWcwLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcwbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Indica si la opción 'NA' indica cumplimiento." label="TEMA_PREG_OKNA" length="1" name="TEMA_PREG_OKNA" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWcwrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Indica si la opción 'NA' indica cumplimiento." xmi:id="_IUWcw7nbEe24zrR24ve_6Q"/>
+        <initialValue body="1" language="COLUMN_DEF" xmi:id="_IUWcxLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWcxbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Texto de la pregunta." label="TEMA_PREG_PREGUN" length="2000" name="TEMA_PREG_PREGUN" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWcxrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Texto de la pregunta." xmi:id="_IUWcx7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWcyLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_IUWcybnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Texto de orientación para responder la pregunta." label="TEMA_PREG_ORIENT" length="2000" name="TEMA_PREG_ORIENT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWcyrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Texto de orientación para responder la pregunta." xmi:id="_IUWcy7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWczLnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWczbnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Archivo de anexo." label="TEMA_PREG_ANEXO" length="4000" name="TEMA_PREG_ANEXO" sourceType="BLOB" talendType="id_Object" xmi:id="_IUWczrnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Archivo de anexo." xmi:id="_IUWcz7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc0LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2004" name="BLOB" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc0bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Encabezado inferior del conjunto de sub preguntas de la pregunta." label="TEMA_PREG_ENCINF" length="300" name="TEMA_PREG_ENCINF" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWc0rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Encabezado inferior del conjunto de sub preguntas de la pregunta." xmi:id="_IUWc07nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc1LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc1bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Órden de presentación de la pregunta." label="TEMA_PREG_ORDEN" length="3" name="TEMA_PREG_ORDEN" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWc1rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Órden de presentación de la pregunta." xmi:id="_IUWc17nbEe24zrR24ve_6Q"/>
+        <initialValue body="1" language="COLUMN_DEF" xmi:id="_IUWc2LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_IUWc2bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Comentarios de la pregunta." label="TEMA_PREG_COMENT" length="4000" name="TEMA_PREG_COMENT" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWc2rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Comentarios de la pregunta." xmi:id="_IUWc27nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc3LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc3bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de creación el registro." label="ADD_FEC" length="7" name="ADD_FEC" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_IUWc3rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación el registro." xmi:id="_IUWc37nbEe24zrR24ve_6Q"/>
+        <initialValue body="'SYSDATE'" language="COLUMN_DEF" xmi:id="_IUWc4LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_IUWc4bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que crea el registro." label="ADD_USE" length="50" name="ADD_USE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWc4rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que crea el registro." xmi:id="_IUWc47nbEe24zrR24ve_6Q"/>
+        <initialValue body="'00000000'" language="COLUMN_DEF" xmi:id="_IUWc5LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_IUWc5bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se crea el registro." label="ADD_IP" length="50" name="ADD_IP" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWc5rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se crea el registro." xmi:id="_IUWc57nbEe24zrR24ve_6Q"/>
+        <initialValue body="'127.0.0.1'" language="COLUMN_DEF" xmi:id="_IUWc6LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_IUWc6bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Fecha de modificación el registro." label="MODI_FEC" length="7" name="MODI_FEC" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_IUWc6rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de modificación el registro." xmi:id="_IUWc67nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc7LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc7bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Usuario que modifica el registro." label="MODI_USE" length="50" name="MODI_USE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWc7rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que modifica el registro." xmi:id="_IUWc77nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc8LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc8bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="IP desde donde se modifica el registro." label="MODI_IP" length="50" name="MODI_IP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_IUWc8rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se modifica el registro." xmi:id="_IUWc87nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc9LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc9bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código de la pregunta asociada a la cual es dependiente." label="TEMA_PREG_CODIGO_ASOC" length="10" name="TEMA_PREG_CODIGO_ASOC" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWc9rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código de la pregunta asociada a la cual es dependiente." xmi:id="_IUWc97nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc-LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc-bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Código para mostrar la pregunta de acuerdo a los repondido en el padre." label="TTAB_PREG_SHOW" length="7" name="TTAB_PREG_SHOW" sourceType="CHAR" talendType="id_String" xmi:id="_IUWc-rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código para mostrar la pregunta de acuerdo a los repondido en el padre." xmi:id="_IUWc-7nbEe24zrR24ve_6Q"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_IUWc_LnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWc_bnbEe24zrR24ve_6Q"/>
+      </feature>
+      <feature comment="Codigo por Default asignado en &quot;0&quot; para habilitar las preguntas" label="TEMA_PREG_HABCAR" length="1" name="TEMA_PREG_HABCAR" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_IUWc_rnbEe24zrR24ve_6Q" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Codigo por Default asignado en &quot;0&quot; para habilitar las preguntas" xmi:id="_IUWc_7nbEe24zrR24ve_6Q"/>
+        <initialValue body="0" language="COLUMN_DEF" xmi:id="_IUWdALnbEe24zrR24ve_6Q" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_IUWdAbnbEe24zrR24ve_6Q"/>
+      </feature>
+    </ownedElement>
+    <ownedElement comment="Listado de empresas." id="_u1kAwMQwEe2oxdBaJZK1kA" label="DGN_M_EMPR" name="DGN_M_EMPR" tableType="TABLE" xmi:id="_u1txwMQwEe2oxdBaJZK1kA" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Listado de empresas." xmi:id="_u1txwcQwEe2oxdBaJZK1kA"/>
+      <feature comment="Código interno de la empresa." key="true" label="EMPR_CODIGO" length="10" name="EMPR_CODIGO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_u1txwsQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código interno de la empresa." xmi:id="_u1txw8QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1txxMQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_u1txxcQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Número de RUC  de la empresa." label="EMPR_NUMRUC" length="11" name="EMPR_NUMRUC" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_u1txxsQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Número de RUC  de la empresa." xmi:id="_u1txx8QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1txyMQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_u1txycQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Razón social de la empresa." label="EMPR_RAZSOC" length="300" name="EMPR_RAZSOC" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_u1txysQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Razón social de la empresa." xmi:id="_u1txy8QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1txzMQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_u1txzcQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Domicilio legal de la empresa." label="EMPR_DOMLEG" length="300" name="EMPR_DOMLEG" sourceType="VARCHAR2" talendType="id_String" xmi:id="_u1txzsQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Domicilio legal de la empresa." xmi:id="_u1txz8QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1tx0MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_u1tx0cQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Fecha de creación el registro." label="ADD_FEC" length="7" name="ADD_FEC" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_u1tx0sQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación el registro." xmi:id="_u1tx08QwEe2oxdBaJZK1kA"/>
+        <initialValue body="'SYSDATE'" language="COLUMN_DEF" xmi:id="_u1tx1MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" numericPrecisionRadix="10" xmi:id="_u1tx1cQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Usuario que crea el registro." label="ADD_USE" length="50" name="ADD_USE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_u1tx1sQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que crea el registro." xmi:id="_u1tx18QwEe2oxdBaJZK1kA"/>
+        <initialValue body="'00000000'" language="COLUMN_DEF" xmi:id="_u1tx2MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_u1tx2cQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="IP desde donde se crea el registro." label="ADD_IP" length="50" name="ADD_IP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_u1tx2sQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se crea el registro." xmi:id="_u1tx28QwEe2oxdBaJZK1kA"/>
+        <initialValue body="'127.0.0.1'" language="COLUMN_DEF" xmi:id="_u1tx3MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_u1tx3cQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Fecha de modificación el registro." label="MODI_FEC" length="7" name="MODI_FEC" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_u1tx3sQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de modificación el registro." xmi:id="_u1tx38QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1tx4MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_u1tx4cQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="Usuario que modifica el registro." label="MODI_USE" length="50" name="MODI_USE" sourceType="VARCHAR2" talendType="id_String" xmi:id="_u1tx4sQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario que modifica el registro." xmi:id="_u1tx48QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1tx5MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_u1tx5cQwEe2oxdBaJZK1kA"/>
+      </feature>
+      <feature comment="IP desde donde se modifica el registro." label="MODI_IP" length="50" name="MODI_IP" sourceType="VARCHAR2" talendType="id_String" xmi:id="_u1tx5sQwEe2oxdBaJZK1kA" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="IP desde donde se modifica el registro." xmi:id="_u1tx58QwEe2oxdBaJZK1kA"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_u1tx6MQwEe2oxdBaJZK1kA" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_u1tx6cQwEe2oxdBaJZK1kA"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1abbec4f-1d9d-43bd-b5e0-9c02a2bd3044"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1oPFXJxRVuT+c/JkR9wicxWBBsLF1w7nJM+SPWt/I1GYigq5Ho159Xc+fD0MnmWiuJpx1a6Bmo8e&#13;
+NOJF6dgajg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bb9e78ba-59a7-460e-9bcf-a311896e18d6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>e0/iRveh7g+h65M8QeRuZrgTl3QpOcvMzpkc8japUnfYzr4DXGZyZEzZ6C4l0pKHydTFMVqJtV5F&#13;
+xr2uJ5Iz5g==</DigestValue></Reference></SignedInfo><SignatureValue>Ag78fvlvbozyzhOQ1x3JWAYL1oqX2LHkuDfUfWnX1abVshLqEPif5nSjLU388QANO/OjRsAEUA5Z&#13;
+eErPYRaALEStiUkgqpTTSy2KLxABXNJy+mcGzPi0NpPrVNYJfcElYQCHc0iSebrRZBAQR7PqwVpd&#13;
+eSiBQFa/IGVYHHyrinM4oBGS3w5HtDyZIBFdCzCnnG9mbQldGWWQE4rmMCxsQE8rmbrHMka+aCjS&#13;
+ufJoQdGitLau6Lt8Y1KzbjKFi03+P5s4ogkzxC+hlNkKYWvtW8x5oz2BKPNHg+qVGHJ37PAp6C7u&#13;
+GLveP46V5ksa2Fw7C+OTU5S3XRmc4euU0I6/sg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bb9e78ba-59a7-460e-9bcf-a311896e18d6" Target="#_1abbec4f-1d9d-43bd-b5e0-9c02a2bd3044"><Timestamp>2023-05-03 22:02:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
