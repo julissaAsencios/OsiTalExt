@@ -1,1 +1,44 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_YdyagHc6Ee6wSeLa_x_fnQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_LsSawHc2Ee6wSeLa_x_fnQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_TkxSkHc5Ee6wSeLa_x_fnQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_LsSawHc2Ee6wSeLa_x_fnQ - SNE_CONSENTIMIENTO_NOTIF",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LsSawHc2Ee6wSeLa_x_fnQ - SNE_NOTIFICACION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_LsSawHc2Ee6wSeLa_x_fnQ - SNE_USUARIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_TkxSkHc5Ee6wSeLa_x_fnQ - SNE_CONSENTIMIENTO_NOTIF",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_TkxSkHc5Ee6wSeLa_x_fnQ - SNE_NOTIFICACION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_TkxSkHc5Ee6wSeLa_x_fnQ - SNE_USUARIO",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
