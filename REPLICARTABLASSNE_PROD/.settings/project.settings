@@ -67,7 +67,7 @@
         "show" : true,
         "field" : "DIRECTORY",
         "name" : "FILE_PATH",
-        "value" : "\"C:/Users/Carlos/Downloads/Instaladores/Talend-Studio-20230428_0423-V8.0.1/workspace/.metadata\"",
+        "value" : "\"C:/Talend_workspace/.metadata\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -180,7 +180,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS",
-        "value" : "enc:system.encryption.key.v1:RYkvNprcDUBBMPwrCvyeXPzNBwVFKQJEJyWns4wj",
+        "value" : "enc:system.encryption.key.v1:8tqBfynafvR8+gPYTnqaGh+G/hABeeFr6nr2O2Lx",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:2zm9KcqPquhrcA6VD6A4dr/vJX2uIuPGk9pktvp8",
+        "value" : "enc:system.encryption.key.v1:Y5m0z0hIAR/mTyXJQAFTyyvoTelygtKPIn8Lw1Fv",
         "contextMode" : false
       }, {
         "show" : true,
