@@ -15,104 +15,6 @@
     <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_-agakHzmEe6Vo6n7vf0vbA"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Schema dataManager="_ui5s8Hc5Ee6wSeLa_x_fnQ" name="ES_SNE_BI" xmi:id="_utArSHc5Ee6wSeLa_x_fnQ">
-    <ownedElement comment="Usuarios" id="_zLTbcHc5Ee6wSeLa_x_fnQ" label="SNE_USUARIO" name="SNE_USUARIO" tableType="TABLE" xmi:id="_zLTbcXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
-      <taggedValue tag="Comment" value="Usuarios" xmi:id="_zLTbcnc5Ee6wSeLa_x_fnQ"/>
-      <feature comment="ID del Usuario" key="true" label="ID_USUARIO" length="38" name="ID_USUARIO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_zLTbc3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID del Usuario" xmi:id="_zLTbdHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbdXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="2" name="NUMBER" numericPrecisionRadix="10" xmi:id="_zLTbdnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Nombre del Usuario" label="NOMBRE" length="200" name="NOMBRE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbd3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Nombre del Usuario" xmi:id="_zLTbeHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbeXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbenc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Login del Usuario" label="LOGIN" length="20" name="LOGIN" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbe3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Login del Usuario" xmi:id="_zLTbfHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbfXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbfnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Contraseña del Usuario" label="PASSWORD" length="100" name="PASSWORD" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbf3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Contraseña del Usuario" xmi:id="_zLTbgHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbgXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbgnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="ID del Cliente SIGED" label="ID_CLIENTE_SIGED" length="38" name="ID_CLIENTE_SIGED" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_zLTbg3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID del Cliente SIGED" xmi:id="_zLTbhHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbhXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="2" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbhnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Correo electrónico del Usuario" label="EMAIL" length="200" name="EMAIL" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbh3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Correo electrónico del Usuario" xmi:id="_zLTbiHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbiXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbinc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Key de recuperación de contraseña" label="RECUPERACION_KEY" length="100" name="RECUPERACION_KEY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbi3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Key de recuperación de contraseña" xmi:id="_zLTbjHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbjXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbjnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Fecha de vencimiento del key de recuperación de contraseña" label="RECUPERACION_VENCIMIENTO" length="13" name="RECUPERACION_VENCIMIENTO" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_zLTbj3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha de vencimiento del key de recuperación de contraseña" xmi:id="_zLTbkHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbkXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="-101" name="TIMESTAMP" nullable="columnNullable" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_zLTbknc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo" label="ESTADO" length="1" name="ESTADO" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_zLTbk3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo" xmi:id="_zLTblHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTblXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_zLTblnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Usuario de creación" label="USUARIO_CREACION" length="50" name="USUARIO_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbl3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Usuario de creación" xmi:id="_zLTbmHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbmXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbmnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Fecha de creación" label="FECHA_CREACION" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_zLTbm3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha de creación" xmi:id="_zLTbnHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbnXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_zLTbnnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Terminal de creación" label="TERMINAL_CREACION" length="50" name="TERMINAL_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbn3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Terminal de creación" xmi:id="_zLTboHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTboXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbonc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Usuario de última modificación" label="USUARIO_MODIFICACION" length="50" name="USUARIO_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbo3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Usuario de última modificación" xmi:id="_zLTbpHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbpXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbpnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Fecha de última modificación" label="FECHA_MODIFICACION" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_zLTbp3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha de última modificación" xmi:id="_zLTbqHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbqXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_zLTbqnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Terminal de última modificación" label="TERMINAL_MODIFICACION" length="50" name="TERMINAL_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbq3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Terminal de última modificación" xmi:id="_zLTbrHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbrXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbrnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature label="TIPO_AFILIACION" length="2" name="TIPO_AFILIACION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbr3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_zLTbsHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbsXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbsnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature label="FECHA_ACTIVACION_AO" length="7" name="FECHA_ACTIVACION_AO" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_zLTbs3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_zLTbtHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbtXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbtnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" label="FECHA_ACTIVACION_AO2" length="7" name="FECHA_ACTIVACION_AO2" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_zLTbt3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Es la fecha de activacion de la casilla con tipo de afiliacion AO" xmi:id="_zLTbuHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbuXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbunc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature label="CELULAR" length="20" name="CELULAR" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbu3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_zLTbvHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zLTbvXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbvnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-    </ownedElement>
     <ownedElement comment="Consentimientos para la recepción de Notificaciones Electrónicas" id="_zv7LcHc5Ee6wSeLa_x_fnQ" label="SNE_CONSENTIMIENTO_NOTIF" name="SNE_CONSENTIMIENTO_NOTIF" tableType="TABLE" xmi:id="_zv7LcXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
       <taggedValue tag="Comment" value="Consentimientos para la recepción de Notificaciones Electrónicas" xmi:id="_zv7Lcnc5Ee6wSeLa_x_fnQ"/>
       <feature comment="ID del Consentimiento para la recepción de Notificaciones Electrónicas" key="true" label="ID_CONSENTIMIENTO_NOTIF" length="38" name="ID_CONSENTIMIENTO_NOTIF" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_zv7Lc3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
@@ -210,20 +112,103 @@
         <initialValue language="COLUMN_DEF" xmi:id="_zv7LvXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
         <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zv7Lvnc5Ee6wSeLa_x_fnQ"/>
       </feature>
-      <feature comment="Número de expediente SIGED" label="NUMERO_EXPEDIENTE_SIGED" length="12" name="NUMERO_EXPEDIENTE_SIGED" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zv7Lv3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Número de expediente SIGED" xmi:id="_zv7LwHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zv7LwXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zv7Lwnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Motivo SIGED brindado en el Consentimiento " label="MOTIVO_SIGED" length="150" name="MOTIVO_SIGED" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zv7Lw3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Motivo SIGED brindado en el Consentimiento " xmi:id="_zv7LxHc5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_zv7LxXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zv7Lxnc5Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature label="TIPO_AFILIACION" length="2" name="TIPO_AFILIACION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zv7Lx3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_zv7LyHc5Ee6wSeLa_x_fnQ"/>
+      <feature comment="TIPO DE AFILIACION" label="TIPO_AFILIACION" length="2" name="TIPO_AFILIACION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zv7Lx3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="TIPO DE AFILIACION" xmi:id="_zv7LyHc5Ee6wSeLa_x_fnQ"/>
         <initialValue language="COLUMN_DEF" xmi:id="_zv7LyXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
         <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zv7Lync5Ee6wSeLa_x_fnQ"/>
+      </feature>
+    </ownedElement>
+    <ownedElement comment="Usuarios" id="_zLTbcHc5Ee6wSeLa_x_fnQ" label="SNE_USUARIO" name="SNE_USUARIO" tableType="TABLE" xmi:id="_zLTbcXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Usuarios" xmi:id="_zLTbcnc5Ee6wSeLa_x_fnQ"/>
+      <feature comment="ID del Usuario" key="true" label="ID_USUARIO" length="38" name="ID_USUARIO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_zLTbc3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID del Usuario" xmi:id="_zLTbdHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbdXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" numericPrecisionRadix="10" xmi:id="_zLTbdnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Nombre del Usuario" label="NOMBRE" length="200" name="NOMBRE" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbd3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Nombre del Usuario" xmi:id="_zLTbeHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbeXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbenc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Login del Usuario" label="LOGIN" length="20" name="LOGIN" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbe3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Login del Usuario" xmi:id="_zLTbfHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbfXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbfnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Contraseña del Usuario" label="PASSWORD" length="100" name="PASSWORD" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbf3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Contraseña del Usuario" xmi:id="_zLTbgHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbgXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbgnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="ID del Cliente SIGED" label="ID_CLIENTE_SIGED" length="38" name="ID_CLIENTE_SIGED" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_zLTbg3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID del Cliente SIGED" xmi:id="_zLTbhHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbhXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="2" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbhnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Correo electrónico del Usuario" label="EMAIL" length="200" name="EMAIL" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbh3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Correo electrónico del Usuario" xmi:id="_zLTbiHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbiXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbinc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Key de recuperación de contraseña" label="RECUPERACION_KEY" length="100" name="RECUPERACION_KEY" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbi3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Key de recuperación de contraseña" xmi:id="_zLTbjHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbjXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbjnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Fecha de vencimiento del key de recuperación de contraseña" label="RECUPERACION_VENCIMIENTO" length="13" name="RECUPERACION_VENCIMIENTO" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_zLTbj3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de vencimiento del key de recuperación de contraseña" xmi:id="_zLTbkHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbkXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="-101" name="TIMESTAMP" nullable="columnNullable" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_zLTbknc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Estado del registro. A: Activo, I: Inactivo" label="ESTADO" length="1" name="ESTADO" nullable="false" sourceType="CHAR" talendType="id_String" xmi:id="_zLTbk3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Estado del registro. A: Activo, I: Inactivo" xmi:id="_zLTblHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTblXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="1" name="CHAR" numericPrecisionRadix="10" xmi:id="_zLTblnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Usuario de creación" label="USUARIO_CREACION" length="50" name="USUARIO_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbl3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario de creación" xmi:id="_zLTbmHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbmXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbmnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Fecha de creación" label="FECHA_CREACION" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_zLTbm3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación" xmi:id="_zLTbnHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbnXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_zLTbnnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Terminal de creación" label="TERMINAL_CREACION" length="50" name="TERMINAL_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbn3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Terminal de creación" xmi:id="_zLTboHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTboXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbonc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Usuario de última modificación" label="USUARIO_MODIFICACION" length="50" name="USUARIO_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbo3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario de última modificación" xmi:id="_zLTbpHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbpXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbpnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Fecha de última modificación" label="FECHA_MODIFICACION" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_zLTbp3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de última modificación" xmi:id="_zLTbqHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbqXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_zLTbqnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Terminal de última modificación" label="TERMINAL_MODIFICACION" length="50" name="TERMINAL_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbq3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Terminal de última modificación" xmi:id="_zLTbrHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbrXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_zLTbrnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="TIPO DE AFILIACION" label="TIPO_AFILIACION" length="2" name="TIPO_AFILIACION" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbr3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="TIPO DE AFILIACION" xmi:id="_zLTbsHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbsXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbsnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" label="FECHA_ACTIVACION_AO" length="7" name="FECHA_ACTIVACION_AO" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_zLTbs3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Es la fecha de activacion de la casilla con tipo de afiliacion AO" xmi:id="_zLTbtHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbtXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbtnc5Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature label="CELULAR" length="20" name="CELULAR" sourceType="VARCHAR2" talendType="id_String" xmi:id="_zLTbu3c5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_zLTbvHc5Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_zLTbvXc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_zLTbvnc5Ee6wSeLa_x_fnQ"/>
       </feature>
     </ownedElement>
     <ownedElement comment="Notificaciones Electrónicas" id="_0NG2sHc5Ee6wSeLa_x_fnQ" label="SNE_NOTIFICACION" name="SNE_NOTIFICACION" tableType="TABLE" xmi:id="_0NM9UHc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
@@ -303,35 +288,25 @@
         <initialValue language="COLUMN_DEF" xmi:id="_0NM9jHc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
         <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_0NM9jXc5Ee6wSeLa_x_fnQ"/>
       </feature>
-      <feature label="PROCEDENCIA_NOTIFICACION" length="1" name="PROCEDENCIA_NOTIFICACION" sourceType="CHAR" talendType="id_String" xmi:id="_0NM9jnc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_0NM9j3c5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_0NM9kHc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="1" name="CHAR" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_0NM9kXc5Ee6wSeLa_x_fnQ"/>
-      </feature>
       <feature label="ID_NOTIFICACION_MASIVA" length="38" name="ID_NOTIFICACION_MASIVA" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_0NM9knc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
         <taggedValue tag="Comment" value="" xmi:id="_0NM9k3c5Ee6wSeLa_x_fnQ"/>
         <initialValue language="COLUMN_DEF" xmi:id="_0NM9lHc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
         <sqlDataType javaDataType="2" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_0NM9lXc5Ee6wSeLa_x_fnQ"/>
       </feature>
-      <feature comment="Fecha valida de la notificación" label="FE_VALIDA" length="7" name="FE_VALIDA" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_0NM9lnc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha valida de la notificación" xmi:id="_0NM9l3c5Ee6wSeLa_x_fnQ"/>
+      <feature label="FE_VALIDA" length="7" name="FE_VALIDA" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_0NM9lnc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_0NM9l3c5Ee6wSeLa_x_fnQ"/>
         <initialValue language="COLUMN_DEF" xmi:id="_0NM9mHc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
         <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_0NM9mXc5Ee6wSeLa_x_fnQ"/>
       </feature>
-      <feature comment="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación" label="NU_PLAZO_LECTURA" length="2" name="NU_PLAZO_LECTURA" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_0NM9mnc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación" xmi:id="_0NM9m3c5Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_0NM9nHc5Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="2" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_0NM9nXc5Ee6wSeLa_x_fnQ"/>
-      </feature>
     </ownedElement>
   </orgomg.cwm.resource.relational:Schema>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c3df6515-39e2-4875-a394-16115ae16f72"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>iwd55XGmiRFlZv8MvrfN0i5e6kUq5+jLN8abk9sCWC3gXr/zux+uluPz5/YoxeAJtlHp/aQVQ8bT&#13;
-KpF2pQr5QA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_eee3035a-25db-42bb-86b3-bc7ae6d5638f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jqVz8GXb/FnMGO11bQ+kx2Byjf9d5c34r9VMnWdrSqnzDSm/5otQSC1a/uX9jPMYU6WvEKwu82vX&#13;
-YsLFnx1TJA==</DigestValue></Reference></SignedInfo><SignatureValue>ioBdrX/Ql5t36HjofNR9mXOYsqihSvxGxPOi9+ddySSFWlubnlRhuTaWqQMyczKpplnfHTfSfRJy&#13;
-Prx24c9UmERjv7vZm5B/p50kVu+H7nbFnbcCZKo8wc6hFVVpTKTynaAHXPFeZtX32jqoXr2o0/OD&#13;
-XM89/YWzcp/XJizYryRIbNVhAgGjN/vq/bDlTqOelsAJcCtJIYBSGlNc4XA2PIVtkoA5OqACMNGQ&#13;
-Nh8mpgD84AOdySpKhZX4N5IrWbWZYTRKvPUjZb/UkDIKhk3Z5MYAas30JTItWn0tEBsqrrRV3FMx&#13;
-oxr6qFQdQ6bdeQF9UmzTl4kyZTfoRifDT7Xd1A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7699aa04-c8d9-4028-8c71-9c59e791ec13"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+u+p8bUmb2WZklqnlj2nfBkOm9siWAxCFEK7EGRVk38gY7OnTlHRb4LMrBUBcNI44Ev+JOk3by2D&#13;
+gbFhH2iwFQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bd52cce4-946b-435d-a993-a3c99b62d3b4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0V/r3771cz/eBgtL5YK9di1DfeOJl0PXvnC8Vc3iImA71iUxzRSEna8J5OKgScAcpbFVVhKYaqpT&#13;
+iw3CFJqzXA==</DigestValue></Reference></SignedInfo><SignatureValue>KFcK+cTYVcm4Z3b2SptKR4o5oOz+CAxF5zuyLoifUs4RwfybqlGOaDM82+g1jMKggZP6/ZG79Xja&#13;
++DRqrD4jAd69EsJwRJh1cLLTC2lVDSI7xkttfgp/Vwg6Oqh0VJCoZk4Jad7+pLRfGCLjAwzwhmXZ&#13;
+AEazHXFZ+JTwfj+XDmmSfH686N2+ua7dclWH/OBNvZ3rCAqyCPbrZl3md3qMkhu2A9RB4MZ87oK3&#13;
+g0NbVCPPcspWUBVi7PWb5/RDzGFsn7IbPgPja/ctoMxZQEclu41q929GMJnolG55B5uzlTU1yYok&#13;
+qJj2kEB0JMgicbchqSmEu0YiBxdcDfsW7wCwAw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -353,4 +328,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_eee3035a-25db-42bb-86b3-bc7ae6d5638f" Target="#_c3df6515-39e2-4875-a394-16115ae16f72"><Timestamp>2023-11-06 21:15:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bd52cce4-946b-435d-a993-a3c99b62d3b4" Target="#_7699aa04-c8d9-4028-8c71-9c59e791ec13"><Timestamp>2023-11-07 14:58:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

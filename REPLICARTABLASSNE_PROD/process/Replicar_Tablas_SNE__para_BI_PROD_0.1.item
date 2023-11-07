@@ -45,7 +45,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Y5m0z0hIAR/mTyXJQAFTyyvoTelygtKPIn8Lw1Fv"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:2zm9KcqPquhrcA6VD6A4dr/vJX2uIuPGk9pktvp8"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -60,7 +60,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend_workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Carlos/Downloads/Instaladores/Talend-Studio-20230428_0423-V8.0.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -80,7 +80,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:8tqBfynafvR8+gPYTnqaGh+G/hABeeFr6nr2O2Lx"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RYkvNprcDUBBMPwrCvyeXPzNBwVFKQJEJyWns4wj"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -135,7 +135,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_USUARIO.ID_USUARIO, &#10;  SNE.SNE_USUARIO.NOMBRE, &#10;  SNE.SNE_USUARIO.LOGIN, &#10;  SNE.SNE_USUARIO.PASSWORD, &#10;  SNE.SNE_USUARIO.ID_CLIENTE_SIGED, &#10;  SNE.SNE_USUARIO.EMAIL, &#10;  SNE.SNE_USUARIO.RECUPERACION_KEY, &#10;  SNE.SNE_USUARIO.RECUPERACION_VENCIMIENTO, &#10;  SNE.SNE_USUARIO.ESTADO, &#10;  SNE.SNE_USUARIO.USUARIO_CREACION, &#10;  SNE.SNE_USUARIO.FECHA_CREACION, &#10;  SNE.SNE_USUARIO.TERMINAL_CREACION, &#10;  SNE.SNE_USUARIO.USUARIO_MODIFICACION, &#10;  SNE.SNE_USUARIO.FECHA_MODIFICACION, &#10;  SNE.SNE_USUARIO.TERMINAL_MODIFICACION, &#10;  SNE.SNE_USUARIO.TIPO_AFILIACION, &#10;  SNE.SNE_USUARIO.FECHA_ACTIVACION_AO, &#10;  SNE.SNE_USUARIO.FECHA_ACTIVACION_AO2, &#10;  SNE.SNE_USUARIO.CELULAR&#10;FROM SNE.SNE_USUARIO&#13;&#10;where rownum &lt;= '&quot; + context.rownumber+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_USUARIO.ID_USUARIO, &#10;  SNE.SNE_USUARIO.NOMBRE, &#10;  SNE.SNE_USUARIO.LOGIN, &#10;  SNE.SNE_USUARIO.PASSWORD, &#10;  SNE.SNE_USUARIO.ID_CLIENTE_SIGED, &#10;  SNE.SNE_USUARIO.EMAIL, &#10;  SNE.SNE_USUARIO.RECUPERACION_KEY, &#10;  SNE.SNE_USUARIO.RECUPERACION_VENCIMIENTO, &#10;  SNE.SNE_USUARIO.ESTADO, &#10;  SNE.SNE_USUARIO.USUARIO_CREACION, &#10;  SNE.SNE_USUARIO.FECHA_CREACION, &#10;  SNE.SNE_USUARIO.TERMINAL_CREACION, &#10;  SNE.SNE_USUARIO.USUARIO_MODIFICACION, &#10;  SNE.SNE_USUARIO.FECHA_MODIFICACION, &#10;  SNE.SNE_USUARIO.TERMINAL_MODIFICACION, &#10;  SNE.SNE_USUARIO.TIPO_AFILIACION, &#10;  SNE.SNE_USUARIO.FECHA_ACTIVACION_AO, &#10;  SNE.SNE_USUARIO.CELULAR&#10;FROM SNE.SNE_USUARIO&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -184,8 +184,6 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_ACTIVACION_AO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_ACTIVACION_AO2"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CELULAR"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
@@ -218,8 +216,8 @@
       <column comment="Fecha de vencimiento del key de recuperación de contraseña" key="false" length="13" name="RECUPERACION_VENCIMIENTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de vencimiento del key de recuperación de contraseña"/>
       </column>
-      <column comment="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo" key="false" length="1" name="ESTADO" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo"/>
+      <column comment="Estado del registro. A: Activo, I: Inactivo" key="false" length="1" name="ESTADO" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Estado del registro. A: Activo, I: Inactivo"/>
       </column>
       <column comment="Usuario de creación" key="false" length="50" name="USUARIO_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Usuario de creación"/>
@@ -239,13 +237,10 @@
       <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Terminal de última modificación"/>
       </column>
-      <column comment="" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
+      <column comment="TIPO DE AFILIACION" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TIPO DE AFILIACION"/>
       </column>
-      <column comment="" key="false" length="7" name="FECHA_ACTIVACION_AO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" key="false" length="7" name="FECHA_ACTIVACION_AO2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+      <column comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" key="false" length="7" name="FECHA_ACTIVACION_AO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Es la fecha de activacion de la casilla con tipo de afiliacion AO"/>
       </column>
       <column comment="" key="false" length="20" name="CELULAR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -378,11 +373,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_ACTIVACION_AO2"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CELULAR"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -428,8 +418,8 @@
       <column comment="Fecha de vencimiento del key de recuperación de contraseña" key="false" length="13" name="RECUPERACION_VENCIMIENTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de vencimiento del key de recuperación de contraseña"/>
       </column>
-      <column comment="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo" key="false" length="1" name="ESTADO" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo"/>
+      <column comment="Estado del registro. A: Activo, I: Inactivo" key="false" length="1" name="ESTADO" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Estado del registro. A: Activo, I: Inactivo"/>
       </column>
       <column comment="Usuario de creación" key="false" length="50" name="USUARIO_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Usuario de creación"/>
@@ -449,13 +439,10 @@
       <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Terminal de última modificación"/>
       </column>
-      <column comment="" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
+      <column comment="TIPO DE AFILIACION" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TIPO DE AFILIACION"/>
       </column>
-      <column comment="" key="false" length="7" name="FECHA_ACTIVACION_AO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" key="false" length="7" name="FECHA_ACTIVACION_AO2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+      <column comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" key="false" length="7" name="FECHA_ACTIVACION_AO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Es la fecha de activacion de la casilla con tipo de afiliacion AO"/>
       </column>
       <column comment="" key="false" length="20" name="CELULAR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -488,8 +475,8 @@
       <column comment="Fecha de vencimiento del key de recuperación de contraseña" key="false" length="13" name="RECUPERACION_VENCIMIENTO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Fecha de vencimiento del key de recuperación de contraseña"/>
       </column>
-      <column comment="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo" key="false" length="1" name="ESTADO" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Estado del registro. P: Pendiente de Activo, A: Activo, I: Inactivo"/>
+      <column comment="Estado del registro. A: Activo, I: Inactivo" key="false" length="1" name="ESTADO" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Estado del registro. A: Activo, I: Inactivo"/>
       </column>
       <column comment="Usuario de creación" key="false" length="50" name="USUARIO_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Usuario de creación"/>
@@ -509,13 +496,10 @@
       <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Terminal de última modificación"/>
       </column>
-      <column comment="" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
+      <column comment="TIPO DE AFILIACION" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TIPO DE AFILIACION"/>
       </column>
-      <column comment="" key="false" length="7" name="FECHA_ACTIVACION_AO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" key="false" length="7" name="FECHA_ACTIVACION_AO2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+      <column comment="Es la fecha de activacion de la casilla con tipo de afiliacion AO" key="false" length="7" name="FECHA_ACTIVACION_AO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value="Es la fecha de activacion de la casilla con tipo de afiliacion AO"/>
       </column>
       <column comment="" key="false" length="20" name="CELULAR" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
@@ -551,7 +535,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_NOTIFICACION.ID_NOTIFICACION, &#10;  SNE.SNE_NOTIFICACION.CODIGO, &#10;  SNE.SNE_NOTIFICACION.ID_CLIENTE_SIGED, &#10;  SNE.SNE_NOTIFICACION.ID_UNIDAD_OPERATIVA, &#10;  SNE.SNE_NOTIFICACION.EXPEDIENTE_SIGED, &#10;  SNE.SNE_NOTIFICACION.ID_PROCEDIMIENTO, &#10;  SNE.SNE_NOTIFICACION.ID_USUARIO_NOTIFICA, &#10;  SNE.SNE_NOTIFICACION.ASUNTO, &#10;  SNE.SNE_NOTIFICACION.FECHA_NOTIFICACION, &#10;  SNE.SNE_NOTIFICACION.USUARIO_CREACION, &#10;  SNE.SNE_NOTIFICACION.FECHA_CREACION, &#10;  SNE.SNE_NOTIFICACION.TERMINAL_CREACION, &#10;  SNE.SNE_NOTIFICACION.USUARIO_MODIFICACION, &#10;  SNE.SNE_NOTIFICACION.FECHA_MODIFICACION, &#10;  SNE.SNE_NOTIFICACION.TERMINAL_MODIFICACION, &#10;  SNE.SNE_NOTIFICACION.PROCEDENCIA_NOTIFICACION, &#10;  SNE.SNE_NOTIFICACION.ID_NOTIFICACION_MASIVA, &#10;  SNE.SNE_NOTIFICACION.FE_VALIDA, &#10;  SNE.SNE_NOTIFICACION.NU_PLAZO_LECTURA&#10;FROM SNE.SNE_NOTIFICACION&#13;&#10;where rownum &lt;= '&quot; + context.rownumber+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_NOTIFICACION.ID_NOTIFICACION, &#10;  SNE.SNE_NOTIFICACION.CODIGO, &#10;  SNE.SNE_NOTIFICACION.ID_CLIENTE_SIGED, &#10;  SNE.SNE_NOTIFICACION.ID_UNIDAD_OPERATIVA, &#10;  SNE.SNE_NOTIFICACION.EXPEDIENTE_SIGED, &#10;  SNE.SNE_NOTIFICACION.ID_PROCEDIMIENTO, &#10;  SNE.SNE_NOTIFICACION.ID_USUARIO_NOTIFICA, &#10;  SNE.SNE_NOTIFICACION.ASUNTO, &#10;  SNE.SNE_NOTIFICACION.FECHA_NOTIFICACION, &#10;  SNE.SNE_NOTIFICACION.USUARIO_CREACION, &#10;  SNE.SNE_NOTIFICACION.FECHA_CREACION, &#10;  SNE.SNE_NOTIFICACION.TERMINAL_CREACION, &#10;  SNE.SNE_NOTIFICACION.USUARIO_MODIFICACION, &#10;  SNE.SNE_NOTIFICACION.FECHA_MODIFICACION, &#10;  SNE.SNE_NOTIFICACION.TERMINAL_MODIFICACION, &#10;  SNE.SNE_NOTIFICACION.ID_NOTIFICACION_MASIVA, &#10;  SNE.SNE_NOTIFICACION.FE_VALIDA&#10;FROM SNE.SNE_NOTIFICACION&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -596,13 +580,9 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TERMINAL_MODIFICACION"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PROCEDENCIA_NOTIFICACION"/>
-      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ID_NOTIFICACION_MASIVA"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="FE_VALIDA"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NU_PLAZO_LECTURA"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
@@ -655,17 +635,11 @@
       <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Terminal de última modificación"/>
       </column>
-      <column comment="" key="false" length="1" name="PROCEDENCIA_NOTIFICACION" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="38" name="ID_NOTIFICACION_MASIVA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="Fecha valida de la notificación" key="false" length="7" name="FE_VALIDA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value="Fecha valida de la notificación"/>
-      </column>
-      <column comment="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación" key="false" length="2" name="NU_PLAZO_LECTURA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación"/>
+      <column comment="" key="false" length="7" name="FE_VALIDA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value="Notificaciones Electrónicas"/>
     </metadata>
@@ -784,22 +758,12 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PROCEDENCIA_NOTIFICACION"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ID_NOTIFICACION_MASIVA"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="FE_VALIDA"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NU_PLAZO_LECTURA"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -865,17 +829,11 @@
       <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Terminal de última modificación"/>
       </column>
-      <column comment="" key="false" length="1" name="PROCEDENCIA_NOTIFICACION" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="38" name="ID_NOTIFICACION_MASIVA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="Fecha valida de la notificación" key="false" length="7" name="FE_VALIDA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value="Fecha valida de la notificación"/>
-      </column>
-      <column comment="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación" key="false" length="2" name="NU_PLAZO_LECTURA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación"/>
+      <column comment="" key="false" length="7" name="FE_VALIDA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
       </column>
       <additionalProperties key="Comment" value="Notificaciones Electrónicas"/>
     </metadata>
@@ -925,17 +883,11 @@
       <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Terminal de última modificación"/>
       </column>
-      <column comment="" key="false" length="1" name="PROCEDENCIA_NOTIFICACION" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
       <column comment="" key="false" length="38" name="ID_NOTIFICACION_MASIVA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="Fecha valida de la notificación" key="false" length="7" name="FE_VALIDA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value="Fecha valida de la notificación"/>
-      </column>
-      <column comment="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación" key="false" length="2" name="NU_PLAZO_LECTURA" nullable="true" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value="Número de días hábiles que el administrado tiene de plazo para la lectura de la notificación"/>
+      <column comment="" key="false" length="7" name="FE_VALIDA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
       </column>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
@@ -967,7 +919,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.ID_CONSENTIMIENTO_NOTIF, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.ID_CLIENTE_SIGED, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TIPO_IDENT_REP_LEGAL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.NUMERO_IDENT_REP_LEGAL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.NOMBRE_REP_LEGAL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.EMAIL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TIPO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_REGISTRO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.MOTIVO_ANULACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_ANULACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.USUARIO_ANULACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.ESTADO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.USUARIO_CREACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_CREACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TERMINAL_CREACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.USUARIO_MODIFICACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_MODIFICACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TERMINAL_MODIFICACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.LOGIN_NUEVO_USUARIO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.NUMERO_EXPEDIENTE_SIGED, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.MOTIVO_SIGED, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TIPO_AFILIACION&#10;FROM SNE.SNE_CONSENTIMIENTO_NOTIF&#13;&#10;where rownum &lt;= '&quot; + context.rownumber+&quot;'&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.ID_CONSENTIMIENTO_NOTIF, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.ID_CLIENTE_SIGED, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TIPO_IDENT_REP_LEGAL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.NUMERO_IDENT_REP_LEGAL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.NOMBRE_REP_LEGAL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.EMAIL, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TIPO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_REGISTRO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.MOTIVO_ANULACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_ANULACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.USUARIO_ANULACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.ESTADO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.USUARIO_CREACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_CREACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TERMINAL_CREACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.USUARIO_MODIFICACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.FECHA_MODIFICACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TERMINAL_MODIFICACION, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.LOGIN_NUEVO_USUARIO, &#10;  SNE.SNE_CONSENTIMIENTO_NOTIF.TIPO_AFILIACION&#10;FROM SNE.SNE_CONSENTIMIENTO_NOTIF&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
@@ -1019,10 +971,6 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="TERMINAL_MODIFICACION"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="LOGIN_NUEVO_USUARIO"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NUMERO_EXPEDIENTE_SIGED"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MOTIVO_SIGED"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TIPO_AFILIACION"/>
       <elementValue elementRef="TRIM" value="false"/>
@@ -1089,14 +1037,8 @@
       <column comment="Login de Usuario generado con el Consentimiento" key="false" length="20" name="LOGIN_NUEVO_USUARIO" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Login de Usuario generado con el Consentimiento"/>
       </column>
-      <column comment="Número de expediente SIGED" key="false" length="12" name="NUMERO_EXPEDIENTE_SIGED" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Número de expediente SIGED"/>
-      </column>
-      <column comment="Motivo SIGED brindado en el Consentimiento " key="false" length="150" name="MOTIVO_SIGED" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Motivo SIGED brindado en el Consentimiento "/>
-      </column>
-      <column comment="" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
+      <column comment="TIPO DE AFILIACION" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TIPO DE AFILIACION"/>
       </column>
       <additionalProperties key="Comment" value="Consentimientos para la recepción de Notificaciones Electrónicas"/>
     </metadata>
@@ -1235,16 +1177,6 @@
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
       <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NUMERO_EXPEDIENTE_SIGED"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MOTIVO_SIGED"/>
-      <elementValue elementRef="UPDATE_KEY" value="false"/>
-      <elementValue elementRef="DELETE_KEY" value="false"/>
-      <elementValue elementRef="UPDATABLE" value="true"/>
-      <elementValue elementRef="INSERTABLE" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TIPO_AFILIACION"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
@@ -1323,14 +1255,8 @@
       <column comment="Login de Usuario generado con el Consentimiento" key="false" length="20" name="LOGIN_NUEVO_USUARIO" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Login de Usuario generado con el Consentimiento"/>
       </column>
-      <column comment="Número de expediente SIGED" key="false" length="12" name="NUMERO_EXPEDIENTE_SIGED" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Número de expediente SIGED"/>
-      </column>
-      <column comment="Motivo SIGED brindado en el Consentimiento " key="false" length="150" name="MOTIVO_SIGED" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Motivo SIGED brindado en el Consentimiento "/>
-      </column>
-      <column comment="" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
+      <column comment="TIPO DE AFILIACION" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TIPO DE AFILIACION"/>
       </column>
       <additionalProperties key="Comment" value="Consentimientos para la recepción de Notificaciones Electrónicas"/>
     </metadata>
@@ -1392,14 +1318,8 @@
       <column comment="Login de Usuario generado con el Consentimiento" key="false" length="20" name="LOGIN_NUEVO_USUARIO" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value="Login de Usuario generado con el Consentimiento"/>
       </column>
-      <column comment="Número de expediente SIGED" key="false" length="12" name="NUMERO_EXPEDIENTE_SIGED" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Número de expediente SIGED"/>
-      </column>
-      <column comment="Motivo SIGED brindado en el Consentimiento " key="false" length="150" name="MOTIVO_SIGED" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value="Motivo SIGED brindado en el Consentimiento "/>
-      </column>
-      <column comment="" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
+      <column comment="TIPO DE AFILIACION" key="false" length="2" name="TIPO_AFILIACION" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="TIPO DE AFILIACION"/>
       </column>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
@@ -1415,11 +1335,11 @@
   </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
-    <elementParameter field="TEXT" name="TO" value="&quot;g.dba@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;carlos.espinoza@sphere.com.pe&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;carlos.espinoza@sphere.com.pe&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
-    <elementParameter field="TEXT" name="CC" value="&quot;gyauri@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Error: Task Replicacion Tablas SNE&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;El error es: &quot; + (String)globalMap.get(&quot;emailMessage&quot;)"/>
@@ -1448,11 +1368,11 @@
   </node>
   <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="544">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_2"/>
-    <elementParameter field="TEXT" name="TO" value="&quot;g.dba@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;carlos.espinoza@sphere.com.pe&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;carlos.espinoza@sphere.com.pe&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
-    <elementParameter field="TEXT" name="CC" value="&quot;gyauri@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Succeeded: Task Replicación Tablas SNE&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;El job se ha ejecutado correctamente&quot;"/>
@@ -1538,13 +1458,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6e676cca-357e-4093-a2d2-7586df19c5b0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>u2Gn0JsuYd+CITF2kLIOBlqd7AWlCwkjbkjr/kEytTwHAi9VId7k744Rj2QkeC7XWV/zEwb7LhcI&#13;
-FPOflqTJ7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b254cebd-bf8a-46e1-add5-2c2d3ef349ac"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5sJJaACwN7fiW8RWOD7uAeyJx0QyWM+eRCSa/BrjZsnmMyc2qSPaV7woc/Rgql67ElF8cj27iZXu&#13;
-xHiXj/53Kg==</DigestValue></Reference></SignedInfo><SignatureValue>NsYwEdLwoRgax6cAbgibfrmSzAP7LHScKczlihHGqW91ojtGTizeDEZdzdwNZiAiU6WACxIFO+ZN&#13;
-l3cHcJJZHrdLx8WR2uP/9R9lMckNp0+RDMk7TB5eXAOKfagxQgeV7v/4vYNsSO9AuhpQkjBOpGKp&#13;
-nD1oRXAb3Ix+imE72eAFtEw/rE3TYGyVgThqZtg+RmOFH9FPSeSuEb9Pu2otUSa9sbHLqR3zQ3zt&#13;
-F1cHWlRcw8+e4uxmsEE7IeBIXfmacZTYi0QxopcPxGCmlpUOw0gK4Lfh+cP5hTCbtihaoTnoH4mH&#13;
-p/D/bTmqEH+D807leLrG1tD+VwKX0Sr1P9QGKA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_218edf8b-1ac3-4613-be02-ad2873fe054d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Dcg7RGAKzhOpj4wEvQF5zVWK+0p0b2PhTjr/T19qtdOm/L1foSuBJg9Bm/kR+f2jeyoFruq8EVcZ&#13;
+u+NH3TTmyw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2adb1bf4-c157-41db-a1c7-d4c2a2f7b420"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mMV7BXy3FSI79c062HX1v+NtOUASAaY2bFVuKKqrJ/1pF7qJwCMw7UqoWnM/P9kzKckmGfJSzbQl&#13;
+n9SXcK1xMg==</DigestValue></Reference></SignedInfo><SignatureValue>gkvV/HMQTp76t/nJN5Xa/CPrFr62TlFu/Z+8Q03Bhe0Q76LEufnRmTw3ykwaT+XDMTGN6B1DdxNR&#13;
+/Y6+XCJlOjQYQAMovQvP1j8UN/NPBotR/dDpYKOKIRypvc0peT0But/xFXpADDz9CwMI1Wv5KarK&#13;
+kCvrSiFREAVgC5HLWvqK0FXKYu3WHTGv9QZjbLsy/rFB/Qe+0YryDG3u9KO1o+r+wNg9LA02q9mv&#13;
+VLOFgr9K65o364cZ5lVvrSDopkzAb7sdqryl2i9pX5gtI8s9ySiDmpRD0P2JHXRJTaiFDvFTwqsL&#13;
+hAVnvYxttmFZzTsI0LKYJjHkvomXtPIQrE6TfA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1566,4 +1486,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b254cebd-bf8a-46e1-add5-2c2d3ef349ac" Target="#_6e676cca-357e-4093-a2d2-7586df19c5b0"><Timestamp>2023-11-06 23:15:44</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2adb1bf4-c157-41db-a1c7-d4c2a2f7b420" Target="#_218edf8b-1ac3-4613-be02-ad2873fe054d"><Timestamp>2023-11-07 15:01:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
