@@ -118,6 +118,94 @@
         <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_WoOSSnc4Ee6wSeLa_x_fnQ"/>
       </feature>
     </ownedElement>
+    <ownedElement comment="Notificaciones Electrónicas" id="_W39XEHc4Ee6wSeLa_x_fnQ" label="SNE_NOTIFICACION" name="SNE_NOTIFICACION" tableType="TABLE" xmi:id="_W4GhAHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
+      <taggedValue tag="Comment" value="Notificaciones Electrónicas" xmi:id="_W4GhAXc4Ee6wSeLa_x_fnQ"/>
+      <feature comment="ID de la Notificación Electrónica" key="true" label="ID_NOTIFICACION" length="38" name="ID_NOTIFICACION" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhAnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID de la Notificación Electrónica" xmi:id="_W4GhA3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhBHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhBXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Código de la Notificación Electrónica" label="CODIGO" length="20" name="CODIGO" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhBnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Código de la Notificación Electrónica" xmi:id="_W4GhB3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhCHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhCXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="ID del Cliente de la Notificación Electrónica en el SIGED" label="ID_CLIENTE_SIGED" length="38" name="ID_CLIENTE_SIGED" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhCnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID del Cliente de la Notificación Electrónica en el SIGED" xmi:id="_W4GhC3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhDHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhDXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="ID de la Unidad Operativa de la Notificación Electrónica en el SFH" label="ID_UNIDAD_OPERATIVA" length="38" name="ID_UNIDAD_OPERATIVA" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhDnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID de la Unidad Operativa de la Notificación Electrónica en el SFH" xmi:id="_W4GhD3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhEHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_W4GhEXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Número del Expediente SIGED de la Notificación Electrónica" label="EXPEDIENTE_SIGED" length="16" name="EXPEDIENTE_SIGED" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhEnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Número del Expediente SIGED de la Notificación Electrónica" xmi:id="_W4GhE3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhFHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhFXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="ID del Procedimiento de la Notificación Electrónica" label="ID_PROCEDIMIENTO" length="38" name="ID_PROCEDIMIENTO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhFnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID del Procedimiento de la Notificación Electrónica" xmi:id="_W4GhF3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhGHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhGXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="ID del Usuario que realiza la Notificación Electrónica" label="ID_USUARIO_NOTIFICA" length="38" name="ID_USUARIO_NOTIFICA" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhGnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="ID del Usuario que realiza la Notificación Electrónica" xmi:id="_W4GhG3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhHHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhHXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Asunto de la Notificación Electrónica" label="ASUNTO" length="500" name="ASUNTO" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhHnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Asunto de la Notificación Electrónica" xmi:id="_W4GhH3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhIHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhIXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Fecha de la Notificación Electrónica" label="FECHA_NOTIFICACION" length="13" name="FECHA_NOTIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_W4GhInc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de la Notificación Electrónica" xmi:id="_W4GhI3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhJHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_W4GhJXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Usuario de creación" label="USUARIO_CREACION" length="50" name="USUARIO_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhJnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario de creación" xmi:id="_W4GhJ3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhKHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhKXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Fecha de creación" label="FECHA_CREACION" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_W4GhKnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de creación" xmi:id="_W4GhK3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhLHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_W4GhLXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Terminal de creación" label="TERMINAL_CREACION" length="50" name="TERMINAL_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhLnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Terminal de creación" xmi:id="_W4GhL3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhMHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhMXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Usuario de última modificación" label="USUARIO_MODIFICACION" length="50" name="USUARIO_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhMnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Usuario de última modificación" xmi:id="_W4GhM3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhNHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhNXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Fecha de última modificación" label="FECHA_MODIFICACION" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_W4GhNnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Fecha de última modificación" xmi:id="_W4GhN3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhOHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_W4GhOXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature comment="Terminal de última modificación" label="TERMINAL_MODIFICACION" length="50" name="TERMINAL_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhOnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="Terminal de última modificación" xmi:id="_W4GhO3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhPHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhPXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature label="ID_NOTIFICACION_MASIVA" length="38" name="ID_NOTIFICACION_MASIVA" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhQnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_W4GhQ3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhRHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_W4GhRXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+      <feature label="FE_VALIDA" length="7" name="FE_VALIDA" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_W4GhRnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
+        <taggedValue tag="Comment" value="" xmi:id="_W4GhR3c4Ee6wSeLa_x_fnQ"/>
+        <initialValue language="COLUMN_DEF" xmi:id="_W4GhSHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
+        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_W4GhSXc4Ee6wSeLa_x_fnQ"/>
+      </feature>
+    </ownedElement>
     <ownedElement comment="Usuarios" id="_WUPmAHc4Ee6wSeLa_x_fnQ" label="SNE_USUARIO" name="SNE_USUARIO" tableType="TABLE" xmi:id="_WUSpUHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
       <taggedValue tag="Comment" value="Usuarios" xmi:id="_WUSpUXc4Ee6wSeLa_x_fnQ"/>
       <feature comment="ID del Usuario" key="true" label="ID_USUARIO" length="38" name="ID_USUARIO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_WUSpUnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
@@ -211,102 +299,14 @@
         <sqlDataType javaDataType="12" name="VARCHAR2" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_WUSpnXc4Ee6wSeLa_x_fnQ"/>
       </feature>
     </ownedElement>
-    <ownedElement comment="Notificaciones Electrónicas" id="_W39XEHc4Ee6wSeLa_x_fnQ" label="SNE_NOTIFICACION" name="SNE_NOTIFICACION" tableType="TABLE" xmi:id="_W4GhAHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdTable">
-      <taggedValue tag="Comment" value="Notificaciones Electrónicas" xmi:id="_W4GhAXc4Ee6wSeLa_x_fnQ"/>
-      <feature comment="ID de la Notificación Electrónica" key="true" label="ID_NOTIFICACION" length="38" name="ID_NOTIFICACION" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhAnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID de la Notificación Electrónica" xmi:id="_W4GhA3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhBHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhBXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Código de la Notificación Electrónica" label="CODIGO" length="20" name="CODIGO" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhBnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Código de la Notificación Electrónica" xmi:id="_W4GhB3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhCHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhCXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="ID del Cliente de la Notificación Electrónica en el SIGED" label="ID_CLIENTE_SIGED" length="38" name="ID_CLIENTE_SIGED" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhCnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID del Cliente de la Notificación Electrónica en el SIGED" xmi:id="_W4GhC3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhDHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhDXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="ID de la Unidad Operativa de la Notificación Electrónica en el SFH" label="ID_UNIDAD_OPERATIVA" length="38" name="ID_UNIDAD_OPERATIVA" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhDnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID de la Unidad Operativa de la Notificación Electrónica en el SFH" xmi:id="_W4GhD3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhEHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_W4GhEXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Número del Expediente SIGED de la Notificación Electrónica" label="EXPEDIENTE_SIGED" length="16" name="EXPEDIENTE_SIGED" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhEnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Número del Expediente SIGED de la Notificación Electrónica" xmi:id="_W4GhE3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhFHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhFXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="ID del Procedimiento de la Notificación Electrónica" label="ID_PROCEDIMIENTO" length="38" name="ID_PROCEDIMIENTO" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhFnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID del Procedimiento de la Notificación Electrónica" xmi:id="_W4GhF3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhGHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhGXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="ID del Usuario que realiza la Notificación Electrónica" label="ID_USUARIO_NOTIFICA" length="38" name="ID_USUARIO_NOTIFICA" nullable="false" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhGnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="ID del Usuario que realiza la Notificación Electrónica" xmi:id="_W4GhG3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhHHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="3" name="NUMBER" numericPrecisionRadix="10" xmi:id="_W4GhHXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Asunto de la Notificación Electrónica" label="ASUNTO" length="500" name="ASUNTO" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhHnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Asunto de la Notificación Electrónica" xmi:id="_W4GhH3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhIHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhIXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Fecha de la Notificación Electrónica" label="FECHA_NOTIFICACION" length="13" name="FECHA_NOTIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_W4GhInc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha de la Notificación Electrónica" xmi:id="_W4GhI3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhJHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_W4GhJXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Usuario de creación" label="USUARIO_CREACION" length="50" name="USUARIO_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhJnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Usuario de creación" xmi:id="_W4GhJ3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhKHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhKXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Fecha de creación" label="FECHA_CREACION" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_W4GhKnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha de creación" xmi:id="_W4GhK3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhLHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_W4GhLXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Terminal de creación" label="TERMINAL_CREACION" length="50" name="TERMINAL_CREACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhLnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Terminal de creación" xmi:id="_W4GhL3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhMHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhMXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Usuario de última modificación" label="USUARIO_MODIFICACION" length="50" name="USUARIO_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhMnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Usuario de última modificación" xmi:id="_W4GhM3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhNHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhNXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Fecha de última modificación" label="FECHA_MODIFICACION" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" talendType="id_Date" xmi:id="_W4GhNnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Fecha de última modificación" xmi:id="_W4GhN3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhOHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="-101" name="TIMESTAMP" numericPrecision="6" numericPrecisionRadix="10" xmi:id="_W4GhOXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature comment="Terminal de última modificación" label="TERMINAL_MODIFICACION" length="50" name="TERMINAL_MODIFICACION" nullable="false" sourceType="VARCHAR2" talendType="id_String" xmi:id="_W4GhOnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="Terminal de última modificación" xmi:id="_W4GhO3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhPHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="12" name="VARCHAR2" numericPrecisionRadix="10" xmi:id="_W4GhPXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature label="ID_NOTIFICACION_MASIVA" length="38" name="ID_NOTIFICACION_MASIVA" sourceType="NUMBER" talendType="id_BigDecimal" xmi:id="_W4GhQnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_W4GhQ3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhRHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="3" name="NUMBER" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_W4GhRXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-      <feature label="FE_VALIDA" length="7" name="FE_VALIDA" pattern="&quot;dd-MM-yyyy&quot;" sourceType="DATE" talendType="id_Date" xmi:id="_W4GhRnc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdColumn">
-        <taggedValue tag="Comment" value="" xmi:id="_W4GhR3c4Ee6wSeLa_x_fnQ"/>
-        <initialValue language="COLUMN_DEF" xmi:id="_W4GhSHc4Ee6wSeLa_x_fnQ" xsi:type="relational:TdExpression"/>
-        <sqlDataType javaDataType="93" name="DATE" nullable="columnNullable" numericPrecisionRadix="10" xmi:id="_W4GhSXc4Ee6wSeLa_x_fnQ"/>
-      </feature>
-    </ownedElement>
   </orgomg.cwm.resource.relational:Schema>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_866f2abc-a07e-494e-b64f-c220118cafd4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Qqv2K0IlZyAhayOgfuHaTpiNs7/ZsG5hVsmPl+Ls4DVZ/10S8waXqHc5qL9EJ3wEwYchHFUKNBru&#13;
-I3VVFxOy3A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_88cc6736-ec7b-4892-9653-c78c4d22b3b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>EKEQ+ua4iYG+SVwU0FHvfB/ZldrWvmQK+aervmXhiiVRqTPAza15h4y797HaRDiyB7BmeuS2eSP2&#13;
-U3o2xHm21w==</DigestValue></Reference></SignedInfo><SignatureValue>EpSGTcertpMY91HVx+TJwl498pnyABXn0FtWD+wIyDm97Ol1hq7qY2LIJt0D6chtHEpXc2ZWAmZt&#13;
-y/EtJgJz+Kq4l/lJ/+azxqPxIW2+cE1Gxhct2SI4xrwgeahBHYbI4rkQ0Bs2Ttj+krIMPzp4n0bF&#13;
-xVlxdflPU9rML0nvx+JZCMiMAadDGKMW6X38PyCv5XPNse52+w3JEc6MlDWXkLpqp3AvbxDrXXCA&#13;
-3Jx0sel1oC2YsMFNa1iGyPY2RX4v/z1iSILXVr0/68MSPzFef3gxyLSxTKe/OTVgmOaZxQrRQEkd&#13;
-MmzrQ3KmZPaJJJ7nHVnThI1MYOFO+gydXFLHPw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5092cfa4-7186-4684-adb4-41feafaafc01"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2paQrdRlMCkdtJ5KnbG0ObkgObGSvbvt2nj5pJHD3z6erjOuASpSbhMRFl8ncE6de68hdlGzTlZg&#13;
+mWVCBBt/Hw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_035b3b00-3ec6-45d3-aefb-1f8cffbbe0e3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>L7dNZNJLzEp7kBTPuiraQ8IsOf7yg8B4hKpBMa49o7WdExbKy+W7qsrdmaFq4FRQPR0QAhAMo1h1&#13;
+9hbKBwzvUg==</DigestValue></Reference></SignedInfo><SignatureValue>SqlhmWME2mx5bRmUPvXg/br2TP7HDu1iYIEnIJDXZdJNBv3tDc4oyn23tT3mIlfuP+Eop7eaXadW&#13;
+dnLJeo143BuRROzbS9JGtpBoRjHFpZihTIMhuVA/zqZkc0ClCleWUu9bVNwX4Wx7YZ5x0k7mGraD&#13;
+oZqteJLohRrlLgXiqRms7eOtkSpX/pKP2FD87gvtvGeTxfEhGyrwyEhV+oZnsudjNZh6yOak+qd8&#13;
+4jNoVAMV8z6Hnlza0KLjIB6pkquR1gsEDpaC5RzV1XlIlFW8RtkWV02x+4SbLCdZAB1tPPToXgNR&#13;
+TzfnHtKaEmlBvld2jDlhKAx84oJeMNAktzN9jw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -328,4 +328,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_88cc6736-ec7b-4892-9653-c78c4d22b3b6" Target="#_866f2abc-a07e-494e-b64f-c220118cafd4"><Timestamp>2023-11-07 14:58:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_035b3b00-3ec6-45d3-aefb-1f8cffbbe0e3" Target="#_5092cfa4-7186-4684-adb4-41feafaafc01"><Timestamp>2023-11-07 16:46:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
