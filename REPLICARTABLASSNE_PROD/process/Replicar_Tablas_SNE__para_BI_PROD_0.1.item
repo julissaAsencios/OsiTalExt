@@ -1339,7 +1339,7 @@
     <elementParameter field="TEXT" name="FROM" value="&quot;talend_job@osinergmin.gob.pe&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
-    <elementParameter field="TEXT" name="CC" value="&quot;gyauri@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;gyauri@osinergmin.gob.pe, operador@osinergmin.gob.pe&quot;"/>
     <elementParameter field="TEXT" name="BCC" value="&quot;sandro.romero@sphere.com.pe&quot;"/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Error: Task Replicacion Tablas SNE&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;El error es: &quot; + (String)globalMap.get(&quot;emailMessage&quot;) + &quot;\n&quot; +&#13;&#10;&quot;El job comenzó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStart_1_STARTTIME&quot;))) + &quot;\n&quot; +&#13;&#10;&quot;El job terminó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStop_1_STOPTIME&quot;)))"/>
@@ -1372,7 +1372,7 @@
     <elementParameter field="TEXT" name="FROM" value="&quot;talend_job@osinergmin.gob.pe&quot;"/>
     <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
     <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
-    <elementParameter field="TEXT" name="CC" value="&quot;gyauri@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="TEXT" name="CC" value="&quot;gyauri@osinergmin.gob.pe, operador@osinergmin.gob.pe&quot;"/>
     <elementParameter field="TEXT" name="BCC" value="&quot;sandro.romero@sphere.com.pe&quot;"/>
     <elementParameter field="TEXT" name="SUBJECT" value="&quot;Succeeded: Task Replicación Tablas SNE&quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;El job se ejecutó correctamente.\n&quot; +&#13;&#10;&quot;El job comenzó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStart_1_STARTTIME&quot;))) + &quot;\n&quot; +&#13;&#10;&quot;El job terminó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStop_1_STOPTIME&quot;)))"/>
@@ -1490,13 +1490,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ff49451d-1734-4744-8ba5-fff60440f0fd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>IM0CrciZU/io9e0TpuCL491qIyHTec5fTBpbWgNSrYZoujIVgtaQ1Q1xU9hFyWmXxTLTxytCqKiD&#13;
-xavqigvw1A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e2d11e6d-46ae-4a7e-b309-67544a1089db"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8dK4lDEfihQ7RSMf6YJ8UcFJY2jWy0bs1AkjViWQY8dpJbu6TZujytoY8YeKR65uPcNPzvRO2A7a&#13;
-NH+K8NjZfA==</DigestValue></Reference></SignedInfo><SignatureValue>TOb8NHy08iVUqj7vdcV0z8Ihf4eFH4JhvKe/6ivQWoEzO39ndc2Q+1x4TzPhfO4+ndG/fJHWPXY+&#13;
-EC0YFPcblrjJkTKAODMM67xWeidnKlkDKNa/sUwlQl9sdzchWxhQTAd8NoLcl0hOjPUIm92JOzjV&#13;
-yX7vL0b5Ajo2a0s+JpeCCe2wyXeFfHWSAbwg0vikOwkarl0ASH7+/vx5XzkAM2EmnzeWpykkG36t&#13;
-W2roPADh+Ts725owzB+OfTnZA6/aLP0Cz7jqKjj9GteR7wmNQ33miRBh6WpqeIVFlDPmJE3yDK6S&#13;
-FwoTwVTI32tCs8coL09Oc3qRCWnK+pHcg9SduA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_53089e59-0039-4098-9e9e-90c8faa1d0b8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N4YI7fdaonVx1Ts4MZKCbZVGIN2jnbi6Ju8r0Hh1n9q41LH4HrNvorBAxx8xESL6XnkN2wXAUNMC&#13;
+qNUz8GwImQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_34b1e4fa-4d83-44e0-86b7-68c5076a0e58"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F4kKxdd2pNBuHBVEHsheShF6LVKNwLCBRT2uJJ+tWgDPT9t9xnOrMmcDh6uQeH/4zIvs+FImQ5wm&#13;
+TRqOkDyGyw==</DigestValue></Reference></SignedInfo><SignatureValue>fXV4m6VkXNdX81ieWT135j4H7o/WLnyaV+LqbFje9TuCnE8++sa/Rs8KLGweHZbj4b7A5qsAiXmo&#13;
+YEW5G0xSCygwGHGpW58Qs6CCmDKNyocArAoKRFcSAbZ59rqmbFhFtns9Chpkc83tYqX5lWHb68Jr&#13;
+TZoOTLKO09vv7mhb2cB+sCAftXT1zMPsQZYKK0VdmpOckq0jS89GQqsekKUpM/uVnzlent42EWUr&#13;
+BAB7JZ7kwkGQe6Ig8telo0qphv9rlxIJK0CIPbCy2CzSBQVNs6KZnbEBEzOzCH8tyT8mqEHf79uh&#13;
+bTDixZcHFaaznR0ncECGA7tElArPfHynRbHgag==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1518,4 +1518,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e2d11e6d-46ae-4a7e-b309-67544a1089db" Target="#_ff49451d-1734-4744-8ba5-fff60440f0fd"><Timestamp>2024-01-16 14:44:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_34b1e4fa-4d83-44e0-86b7-68c5076a0e58" Target="#_53089e59-0039-4098-9e9e-90c8faa1d0b8"><Timestamp>2024-01-17 15:55:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
