@@ -1,0 +1,96 @@
+[ {
+  "baseItem" : {
+    "id" : "_blnQkN47Ee2FHfwBe9LUqg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_bZlcMN46Ee2FHfwBe9LUqg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_ACTIVIDAD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_CONTRATO_EMPRESA_LOCADOR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_DIRCCION_UNIDAD_SUPRVISADA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_LOCADOR",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_MAESTRO_COLUMNA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_REGION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_REGISTRO_HIDROCARBURO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_SUPERVISORA_EMPRESA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - MDI_UBIGEO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_DETALLE_SUPERVISION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_ESTADO_PROCESO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_HISTORICO_ESTADO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_MOTIVO_NO_SUPERVISION",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_OBLIGACION_TIPO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_ORDEN_SERVICIO",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_PERIODO_MEDIDA_SEGURIDAD",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_PERSONAL",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_PRODUCTO_SUSPENDER",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_PROGRAMACION_VISITA",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_tlugsN4zEe2FHfwBe9LUqg - PGH_UBIGEO_REGION",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

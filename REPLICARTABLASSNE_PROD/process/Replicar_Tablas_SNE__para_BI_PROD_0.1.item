@@ -190,6 +190,7 @@
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SNE_USUARIO" name="tDBInput_1">
       <column comment="ID del Usuario" key="true" length="38" name="ID_USUARIO" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
@@ -392,6 +393,7 @@
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
     <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SNE_USUARIO" name="tDBOutput_1">
       <column comment="ID del Usuario" key="true" length="38" name="ID_USUARIO" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
@@ -588,6 +590,7 @@
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SNE_NOTIFICACION" name="tDBInput_2">
       <column comment="ID de la Notificación Electrónica" key="true" length="38" name="ID_NOTIFICACION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
@@ -782,6 +785,7 @@
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
     <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SNE_NOTIFICACION" name="tDBOutput_2">
       <column comment="ID de la Notificación Electrónica" key="true" length="38" name="ID_NOTIFICACION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
@@ -978,6 +982,7 @@
     <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
     <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SNE_CONSENTIMIENTO_NOTIF" name="tDBInput_3">
       <column comment="ID del Consentimiento para la recepción de Notificaciones Electrónicas" key="true" length="38" name="ID_CONSENTIMIENTO_NOTIF" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
@@ -1196,6 +1201,7 @@
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
     <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="SNE_CONSENTIMIENTO_NOTIF" name="tDBOutput_3">
       <column comment="ID del Consentimiento para la recepción de Notificaciones Electrónicas" key="true" length="38" name="ID_CONSENTIMIENTO_NOTIF" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
@@ -1326,14 +1332,16 @@
       <additionalProperties key="Comment" value="Consentimientos para la recepción de Notificaciones Electrónicas"/>
     </metadata>
   </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="544">
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="736">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="MEMO_JAVA" name="CODE" value="String message = &quot;&quot;;&#10;boolean allValuesAreNull = true;&#10;&#10;for (int i = 1; i &lt;= 34; i++) {&#10;    String errorMessage = (String) globalMap.get(&quot;tDBOutput_&quot; + i + &quot;_ERROR_MESSAGE&quot;);&#10;&#10;    if (errorMessage != null) {&#10;        if (!message.isEmpty()) {&#10;            message += &quot;\n&quot;;&#10;        }&#10;        message += &quot;Error &quot; + i + &quot;: &quot; + errorMessage;&#10;        allValuesAreNull = false; // Al menos un valor no es nulo&#10;    }&#10;}&#10;&#10;globalMap.put(&quot;emailMessage&quot;, message); // Almacena el mensaje en la variable global&#10;&#10;boolean sendEmail = !message.isEmpty();&#10;&#10;globalMap.put(&quot;sendEmailFlag&quot;, sendEmail); // Almacena la bandera en una variable global&#10;&#10;// Establece la bandera allValuesAreNullFlag&#10;globalMap.put(&quot;allValuesAreNullFlag&quot;, allValuesAreNull);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
-  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="544">
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
     <elementParameter field="TEXT" name="TO" value="&quot;g.dba@osinergmin.gob.pe&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;talend_job@osinergmin.gob.pe&quot;"/>
@@ -1363,10 +1371,12 @@
     <elementParameter field="TEXT" name="LOCALHOST" show="false" value="&quot;localhost&quot;"/>
     <elementParameter field="CHECK" name="USE_TWO_LINE_TOKEN" show="false" value="false"/>
     <elementParameter field="TABLE" name="CONFIGS"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSendMail_1"/>
   </node>
-  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="640">
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="544" posY="768">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_2"/>
     <elementParameter field="TEXT" name="TO" value="&quot;g.dba@osinergmin.gob.pe&quot;"/>
     <elementParameter field="TEXT" name="FROM" value="&quot;talend_job@osinergmin.gob.pe&quot;"/>
@@ -1396,15 +1406,19 @@
     <elementParameter field="TEXT" name="LOCALHOST" show="false" value="&quot;localhost&quot;"/>
     <elementParameter field="CHECK" name="USE_TWO_LINE_TOKEN" show="false" value="false"/>
     <elementParameter field="TABLE" name="CONFIGS"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSendMail_2"/>
   </node>
   <node componentName="tChronometerStart" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="-32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStart_1"/>
     <elementParameter field="TEXT" name="CAPTION" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="416">
+  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStop_1"/>
     <elementParameter field="RADIO" name="SINCE_BEGINNING" value="false"/>
     <elementParameter field="RADIO" name="SINCE_STARTER" value="true"/>
@@ -1413,7 +1427,299 @@
     <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="true"/>
     <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_LsSawHc2Ee6wSeLa_x_fnQ"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;11.160.121.161&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;11.160.121.161&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;osiprd01&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;osiprd01&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;SNE&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;US_SNE_BI_OR&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iW8bsCMPFESsl+MDJzJGLZkpz2zzEQENa7+3mpnE2whjEntVpA=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_LsSawHc2Ee6wSeLa_x_fnQ - SNE_DOCUMENTO_NOTIF"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SNE_DOCUMENTO_NOTIF&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  SNE.SNE_DOCUMENTO_NOTIF.ID_DOCUMENTO_NOTIF, &#10;  SNE.SNE_DOCUMENTO_NOTIF.ID_NOTIFICACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.NOMBRE, &#10;  SNE.SNE_DOCUMENTO_NOTIF.ID_DOCUMENTO_SIGED, &#10;  SNE.SNE_DOCUMENTO_NOTIF.USUARIO_CREACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.FECHA_CREACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.TERMINAL_CREACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.USUARIO_MODIFICACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.FECHA_MODIFICACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.TERMINAL_MODIFICACION, &#10;  SNE.SNE_DOCUMENTO_NOTIF.IN_ES_PRINCIPAL&#10;FROM SNE.SNE_DOCUMENTO_NOTIF&#13;&#10;where SNE.SNE_DOCUMENTO_NOTIF.FECHA_CREACION &gt;= sysdate - 365*3 and  rownum &lt;= '&quot; + context.rownumber+&quot;'&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID_DOCUMENTO_NOTIF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID_NOTIFICACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID_DOCUMENTO_SIGED"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="USUARIO_CREACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_CREACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TERMINAL_CREACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="USUARIO_MODIFICACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_MODIFICACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TERMINAL_MODIFICACION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IN_ES_PRINCIPAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SNE_DOCUMENTO_NOTIF" name="tDBInput_4">
+      <column comment="ID del Documento de la Notificación Electrónica" key="true" length="38" name="ID_DOCUMENTO_NOTIF" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID del Documento de la Notificación Electrónica"/>
+      </column>
+      <column comment="ID de la Notificación Electrónica" key="false" length="38" name="ID_NOTIFICACION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID de la Notificación Electrónica"/>
+      </column>
+      <column comment="Nombre del Documento de la Notificación Electrónica" key="false" length="200" name="NOMBRE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Nombre del Documento de la Notificación Electrónica"/>
+      </column>
+      <column comment="ID del Documento de la Notificación Electrónica en el SIGED" key="false" length="38" name="ID_DOCUMENTO_SIGED" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID del Documento de la Notificación Electrónica en el SIGED"/>
+      </column>
+      <column comment="Usuario de creación" key="false" length="50" name="USUARIO_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de creación"/>
+      </column>
+      <column comment="Fecha de creación" key="false" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de creación"/>
+      </column>
+      <column comment="Terminal de creación" key="false" length="50" name="TERMINAL_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terminal de creación"/>
+      </column>
+      <column comment="Usuario de última modificación" key="false" length="50" name="USUARIO_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de última modificación"/>
+      </column>
+      <column comment="Fecha de última modificación" key="false" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de última modificación"/>
+      </column>
+      <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terminal de última modificación"/>
+      </column>
+      <column comment="Indicador de si el documento es el principal para la notificación. S: Sí, N: No" key="false" length="1" name="IN_ES_PRINCIPAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicador de si el documento es el principal para la notificación. S: Sí, N: No"/>
+      </column>
+      <additionalProperties key="Comment" value="Documentos de las Notificaciones Electrónicas"/>
+    </metadata>
+  </node>
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_4"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_TkxSkHc5Ee6wSeLa_x_fnQ"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_18"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;10.10.20.25&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;10.10.20.25&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;1600&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;o19p01&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;o19p01&quot;"/>
+    <elementParameter field="TEXT" name="TABLESCHEMA" value="&quot;ES_SNE_BI&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;US_SNE_BI&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Qyj12YS477f/FmL4JitrSMhHEp55g0vVkJIYu4Pyl3jm8Lp6"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;SNE_DOCUMENTO_NOTIF&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="CREATE_IF_NOT_EXISTS"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="UPDATE_OR_INSERT"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_TkxSkHc5Ee6wSeLa_x_fnQ - SNE_DOCUMENTO_NOTIF"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID_DOCUMENTO_NOTIF"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID_NOTIFICACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRE"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ID_DOCUMENTO_SIGED"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="USUARIO_CREACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_CREACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TERMINAL_CREACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="USUARIO_MODIFICACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_MODIFICACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TERMINAL_MODIFICACION"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="IN_ES_PRINCIPAL"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_UPPERCASE" value="false"/>
+    <elementParameter field="CHECK" name="CONTAIN_BLOB_FROM_OTHER_DB" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="USE_BATCH_AND_USE_CONN" show="false" value="false"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_TIMESTAMP_FOR_DATE_TYPE" value="true"/>
+    <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="SNE_DOCUMENTO_NOTIF" name="tDBOutput_4">
+      <column comment="ID del Documento de la Notificación Electrónica" key="true" length="38" name="ID_DOCUMENTO_NOTIF" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID del Documento de la Notificación Electrónica"/>
+      </column>
+      <column comment="ID de la Notificación Electrónica" key="false" length="38" name="ID_NOTIFICACION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID de la Notificación Electrónica"/>
+      </column>
+      <column comment="Nombre del Documento de la Notificación Electrónica" key="false" length="200" name="NOMBRE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Nombre del Documento de la Notificación Electrónica"/>
+      </column>
+      <column comment="ID del Documento de la Notificación Electrónica en el SIGED" key="false" length="38" name="ID_DOCUMENTO_SIGED" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID del Documento de la Notificación Electrónica en el SIGED"/>
+      </column>
+      <column comment="Usuario de creación" key="false" length="50" name="USUARIO_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de creación"/>
+      </column>
+      <column comment="Fecha de creación" key="false" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de creación"/>
+      </column>
+      <column comment="Terminal de creación" key="false" length="50" name="TERMINAL_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terminal de creación"/>
+      </column>
+      <column comment="Usuario de última modificación" key="false" length="50" name="USUARIO_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de última modificación"/>
+      </column>
+      <column comment="Fecha de última modificación" key="false" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de última modificación"/>
+      </column>
+      <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terminal de última modificación"/>
+      </column>
+      <column comment="Indicador de si el documento es el principal para la notificación. S: Sí, N: No" key="false" length="1" name="IN_ES_PRINCIPAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicador de si el documento es el principal para la notificación. S: Sí, N: No"/>
+      </column>
+      <additionalProperties key="Comment" value="Documentos de las Notificaciones Electrónicas"/>
+    </metadata>
+    <metadata connector="REJECT" label="SNE_DOCUMENTO_NOTIF" name="REJECT">
+      <column comment="ID del Documento de la Notificación Electrónica" key="true" length="38" name="ID_DOCUMENTO_NOTIF" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID del Documento de la Notificación Electrónica"/>
+      </column>
+      <column comment="ID de la Notificación Electrónica" key="false" length="38" name="ID_NOTIFICACION" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID de la Notificación Electrónica"/>
+      </column>
+      <column comment="Nombre del Documento de la Notificación Electrónica" key="false" length="200" name="NOMBRE" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Nombre del Documento de la Notificación Electrónica"/>
+      </column>
+      <column comment="ID del Documento de la Notificación Electrónica en el SIGED" key="false" length="38" name="ID_DOCUMENTO_SIGED" nullable="false" pattern="" precision="0" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value="ID del Documento de la Notificación Electrónica en el SIGED"/>
+      </column>
+      <column comment="Usuario de creación" key="false" length="50" name="USUARIO_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de creación"/>
+      </column>
+      <column comment="Fecha de creación" key="false" length="13" name="FECHA_CREACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de creación"/>
+      </column>
+      <column comment="Terminal de creación" key="false" length="50" name="TERMINAL_CREACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terminal de creación"/>
+      </column>
+      <column comment="Usuario de última modificación" key="false" length="50" name="USUARIO_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de última modificación"/>
+      </column>
+      <column comment="Fecha de última modificación" key="false" length="13" name="FECHA_MODIFICACION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de última modificación"/>
+      </column>
+      <column comment="Terminal de última modificación" key="false" length="50" name="TERMINAL_MODIFICACION" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Terminal de última modificación"/>
+      </column>
+      <column comment="Indicador de si el documento es el principal para la notificación. S: Sí, N: No" key="false" length="1" name="IN_ES_PRINCIPAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Indicador de si el documento es el principal para la notificación. S: Sí, N: No"/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <additionalProperties key="Comment" value="Documentos de las Notificaciones Electrónicas"/>
+    </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tDBOutput_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -1433,7 +1739,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tChronometerStop_1">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_3" offsetLabelX="0" offsetLabelY="0" source="tDBInput_3" target="tDBInput_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tJava_1" target="tSendMail_1">
@@ -1449,6 +1755,13 @@
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tChronometerStop_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStop_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tDBOutput_4">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBInput_4" offsetLabelX="0" offsetLabelY="0" source="tDBInput_4" target="tChronometerStop_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
@@ -1490,13 +1803,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_53089e59-0039-4098-9e9e-90c8faa1d0b8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>N4YI7fdaonVx1Ts4MZKCbZVGIN2jnbi6Ju8r0Hh1n9q41LH4HrNvorBAxx8xESL6XnkN2wXAUNMC&#13;
-qNUz8GwImQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_34b1e4fa-4d83-44e0-86b7-68c5076a0e58"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>F4kKxdd2pNBuHBVEHsheShF6LVKNwLCBRT2uJJ+tWgDPT9t9xnOrMmcDh6uQeH/4zIvs+FImQ5wm&#13;
-TRqOkDyGyw==</DigestValue></Reference></SignedInfo><SignatureValue>fXV4m6VkXNdX81ieWT135j4H7o/WLnyaV+LqbFje9TuCnE8++sa/Rs8KLGweHZbj4b7A5qsAiXmo&#13;
-YEW5G0xSCygwGHGpW58Qs6CCmDKNyocArAoKRFcSAbZ59rqmbFhFtns9Chpkc83tYqX5lWHb68Jr&#13;
-TZoOTLKO09vv7mhb2cB+sCAftXT1zMPsQZYKK0VdmpOckq0jS89GQqsekKUpM/uVnzlent42EWUr&#13;
-BAB7JZ7kwkGQe6Ig8telo0qphv9rlxIJK0CIPbCy2CzSBQVNs6KZnbEBEzOzCH8tyT8mqEHf79uh&#13;
-bTDixZcHFaaznR0ncECGA7tElArPfHynRbHgag==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ab0be3fd-bea3-4136-895b-eb5a9deaec81"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Qk8SrmxgKeHWY7VirrF7Npq7bEslTRxbgxBRjSlqgQ4ZEX2qttCtvL68+VzkcEORWcjJP3RJWTmb&#13;
+Le2IAgHPFA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1be16ef5-5a1a-46a2-acca-53806db60f19"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jb9qyp0IfmsGdktDXK3O/eVK52U/m5gbmKAYdBvJHEVJ70Bm8jf1Jhbcn7tkhiNb0+mKtKHS5zVi&#13;
+1dnJtC/1Aw==</DigestValue></Reference></SignedInfo><SignatureValue>YZzwb9IzhTskRSsk2pSRkdxhP1y5XndRW6Pb2LS9Rv/5MC14o5RVvcgP+VF2t0yxCt5lq76bBo/y&#13;
+aWxZHqodzrX5H5QE1RfasovhPfFua29QxLqas3m3WhfxIIEKZdF+3c3v5Sc7oEkdCjx1c9abHLwi&#13;
+NrcEVMY/HMgQW8+bYoaf2YOHFGBuwQuKj4IS7Iop2wKld3zEMk2QQQCGOKHICnq6RmwP+0RvxsMv&#13;
+G5Zi3mwneYZsHnflq1HOFOWUfW/q+IOUi/9NpF5pbXDVPE90Z9nEprH7tVIaBnOy489FXs1er3MY&#13;
+4Y2naHK4ifd9nMdquqE5aIDxW5G2EUQqA2s70w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1518,4 +1836,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_34b1e4fa-4d83-44e0-86b7-68c5076a0e58" Target="#_53089e59-0039-4098-9e9e-90c8faa1d0b8"><Timestamp>2024-01-17 15:55:26</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1be16ef5-5a1a-46a2-acca-53806db60f19" Target="#_ab0be3fd-bea3-4136-895b-eb5a9deaec81"><Timestamp>2024-08-01 17:07:29</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

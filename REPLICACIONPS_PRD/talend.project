@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_QmrCYTM5Ee-lb54NzSmN5Q" label="ReplicacioNPS_PRD" language="java" technicalLabel="REPLICACIONPS_PRD" author="_QmrCYjM5Ee-lb54NzSmN5Q" productVersion="Talend Cloud Data Integration-8.0.1.20231222_1430-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/julissaAsencios/OsiTalExt.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_QoQWwDM5Ee-lb54NzSmN5Q" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_QmrCYjM5Ee-lb54NzSmN5Q" login="jasencios@osinergmin.gob.pe" firstName="Julissa" lastName="Asencios" type="DI"/>
+  <TalendProperties:User xmi:id="_RIk1kDM5Ee-lb54NzSmN5Q" login="sandroromero@osinergmin.gob.pe" firstName="Sandro" lastName="Romero" type="DI"/>
+  <TalendProperties:User xmi:id="_-GDKYDM5Ee-OzvuBpCD63A" login="gyauri@osinergmin.gob.pe" firstName="Gustavo" lastName="Yauri" type="DI"/>
+  <TalendProperties:User xmi:id="_-GDKYTM5Ee-OzvuBpCD63A" login="g.dba@osinergmin.gob.pe" firstName="DBA" lastName="Osinergmin" type="DI"/>
+</xmi:XMI>
