@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="true" name="DEV" xmi:id="_t4nkEMRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="Fecha de corte" name="v_fechaCorte" prompt="v_fechaCorte?" promptNeeded="true" repositoryContextId="built-in" type="id_Date" value="1900-01-01 00:00:00" xmi:id="_t4nkEcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Tipo de ejecucion" name="p_tipoProceso" prompt="¿p_tipoProceso (P/R)?" promptNeeded="false" repositoryContextId="built-in" type="id_Character" value="P" xmi:id="_t4nkEsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Variable que setea el valor de la ejecucion para la tabla" name="v_idSeqTabla" prompt="v_idSeqTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="9999" xmi:id="_t4nkE8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Informacion del usuario a ser insertado en las tablas destino" name="p_usuario" prompt="p_usuario?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM_LIMPIEZA" xmi:id="_t4nkFMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Parametro de IP que se inserta de forma fija en las tablas destino" name="p_ip" prompt="p_ip?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1" xmi:id="_t4nkFcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Carpeta donde se dejan los archivos de salida" name="p_carpetaArchivos" prompt="p_carpetaArchivos?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="D:/Talend/Archivos/Salida/" xmi:id="_t4nkGMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Nombre de reporte SYM Historico." name="p_nombreArchivoHistoria" prompt="p_nombreArchivoHistoria?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ReporteCierreSYM_Historico" xmi:id="_t4nkGcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Email destino para los mensajes de ejecución fallida" name="p_emailFalla" prompt="p_emailFalla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="miguel.garcia@e2e.pe ; ingsismiguelangel@gmail.com" xmi:id="__SfPQM0mEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Variable usada para definir la ejecucion de un proceso" name="v_ejecucionProceso" prompt="v_ejecucionProceso?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="__SfPQc0mEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Email destino para los mensajes de ejecución exitosa" name="p_emailsExito" prompt="p_emailsExito?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="miguel.garcia@e2e.pe ; ingsismiguelangel@gmail.com" xmi:id="_CALkkM0nEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Email destino para los archivos de reporte SYM Historico." name="p_emailsArchivoHistoria" prompt="p_emailsArchivoHistoria?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="miguel.garcia@e2e.pe ; ingsismiguelangel@gmail.com" xmi:id="_m3ZSAM0pEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Esquema Origen" name="p_Sym_Schema" prompt="p_Sym_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM_SCRIPT" xmi:id="_Jr8c4Ny-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Esquema Stage" name="p_SymSTG_Schema" prompt="p_SymSTG_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_SYM_BI" xmi:id="_0lRIoNy-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Esquema ODS" name="p_SymODS_Schema" prompt="p_SymODS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_ODSSYM_BI" xmi:id="_0lRIody-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Esquema BDS" name="p_SymBDS_Schema" prompt="p_SymBDS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_BDSSYM_BI" xmi:id="_0lRIoty-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Cabecera del Archivo de historia" name="p_cabeceraArchivo" prompt="p_cabeceraArchivo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ArchivoCabecera.csv" xmi:id="_h0TWMOJfEe6ICuUzmWo7xA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="PRD" xmi:id="_t4nkGsRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="Fecha de corte" name="v_fechaCorte" prompt="v_fechaCorte?" promptNeeded="true" repositoryContextId="built-in" type="id_Date" value="1900-01-01 00:00:00" xmi:id="_t4nkG8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Tipo de ejecucion" name="p_tipoProceso" prompt="¿p_tipoProceso (P/R)?" promptNeeded="false" repositoryContextId="built-in" type="id_Character" value="P" xmi:id="_t4nkHMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Variable que setea el valor de la ejecucion para la tabla" name="v_idSeqTabla" prompt="v_idSeqTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="9999" xmi:id="_t4nkHcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Informacion del usuario a ser insertado en las tablas destino" name="p_usuario" prompt="p_usuario?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM_LIMPIEZA" xmi:id="_t4nkHsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Parametro de IP que se inserta de forma fija en las tablas destino" name="p_ip" prompt="p_ip?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1" xmi:id="_t4nkH8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Carpeta donde se dejan los archivos de salida" name="p_carpetaArchivos" prompt="p_carpetaArchivos?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="E:/Archivos_generados_SYM_para_saldos/" xmi:id="_t4nkIsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Nombre de reporte SYM Historico." name="p_nombreArchivoHistoria" prompt="p_nombreArchivoHistoria?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ReporteCierreSYM_Historico" xmi:id="_t4nkI8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Email destino para los mensajes de ejecución fallida" name="p_emailFalla" prompt="p_emailFalla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rmejia@osinergmin.gob.pe ; mlopezj@osinergmin.gob.pe ; gyauri@osinergmin.gob.pe ; g.dba@osinergmin.gob.pe" xmi:id="__SfPRM0mEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Variable usada para definir la ejecucion de un proceso" name="v_ejecucionProceso" prompt="v_ejecucionProceso?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false" xmi:id="__SfPRc0mEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Email destino para los mensajes de ejecución exitosa" name="p_emailsExito" prompt="p_emailsExito?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rmejia@osinergmin.gob.pe ; mlopezj@osinergmin.gob.pe ; gyauri@osinergmin.gob.pe" xmi:id="_CALkks0nEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Email destino para los archivos de reporte SYM Historico." name="p_emailsArchivoHistoria" prompt="p_emailsArchivoHistoria?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="rmejia@osinergmin.gob.pe ; mlopezj@osinergmin.gob.pe" xmi:id="_m3ZSAs0pEe6uOK2NnY5Wsg"/>
+    <contextParameter comment="Esquema Origen" name="p_Sym_Schema" prompt="p_Sym_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM" xmi:id="_Jr8c4dy-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Esquema Stage" name="p_SymSTG_Schema" prompt="p_SymSTG_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_SYM_BI" xmi:id="_0lRvsNy-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Esquema ODS" name="p_SymODS_Schema" prompt="p_SymODS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_ODSSYM_BI" xmi:id="_0lRvsdy-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Esquema BDS" name="p_SymBDS_Schema" prompt="p_SymBDS_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_BDSSYM_BI" xmi:id="_0lRvsty-Ee6rUKSOQrE9Fg"/>
+    <contextParameter comment="Cabecera del Archivo de historia" name="p_cabeceraArchivo" prompt="p_cabeceraArchivo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ArchivoCabecera.csv" xmi:id="_h0TWMeJfEe6ICuUzmWo7xA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_feec958a-f650-41b1-8675-681582a9dcc9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BvUwXYs5z7D78eTkOalbQFing6ezk2RnJdTcPVxPy3j4z20Ks52DC2gpiVybDtzOAOE/rpVVgOCw&#13;
+13D4+pAdsA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_86d1b13c-d152-45af-90e1-eb3107ee8bfd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hp8g/Wl9daydKX8gfocNAoPpwJBDdiYPSuKsDEN/SjASugBtoER0RhCT22TfVp4WvgKOccc4uq+7&#13;
+wDp2NuPuPA==</DigestValue></Reference></SignedInfo><SignatureValue>NFGdKzSEVA9qLatu+WEFwuPMgEkOfE9+2eUl9ieb05GlcJzipwwVpt6xnkkn+IodJw/vZ5GhzIhQ&#13;
+EfqaP5FFpqFoVIlAl08z0PoO4Vmi/TmyMly8fOCnt1ywPYQGBLNdwNXEEryZFXg21n7QgY8j4BRq&#13;
+ri01LZCzxjN0y/hgCZCKtDIox1hAK7Kpk3Kqg/mBdX1miwi3uooE+qUvdvDhPbuicROIoBoZ6VgD&#13;
+bjSvaAhLL5++LbahMkeoYxIKdnXvwHOMO4n0EnZezdjHSnGcoPH4JWkstMt2C0IFU9XhUdyKpSBJ&#13;
+46dUnonYcdgoWDUgO+XElQDvU9ROAMFZBgDb+Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_86d1b13c-d152-45af-90e1-eb3107ee8bfd" Target="#_feec958a-f650-41b1-8675-681582a9dcc9"><Timestamp>2024-08-19 23:12:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

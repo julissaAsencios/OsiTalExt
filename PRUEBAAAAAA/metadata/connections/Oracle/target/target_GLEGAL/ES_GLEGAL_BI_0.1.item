@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.ES_GLEGAL_BI_AdditionalParams" ContextId="_S5MEUNaDEe6X0qTOScZYrg" ContextMode="true" DatabaseType="Oracle with SID" DatasourceName="" DbmsId="oracle_id" DriverClass="oracle.jdbc.OracleDriver" FileFieldName="" NullChar="" Password="context.ES_GLEGAL_BI_Password" Port="context.ES_GLEGAL_BI_Port" ProductId="ORACLE" SID="context.ES_GLEGAL_BI_Sid" SQLMode="false" ServerName="context.ES_GLEGAL_BI_Server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:oracle:thin:@10.10.20.25:1600:O19P01" UiSchema="context.ES_GLEGAL_BI_Schema" Username="context.ES_GLEGAL_BI_Login" contextName="PRD" dataPackage="_lkfs4NaDEe6X0qTOScZYrg" dbVersionString="ORACLE_18" id="_pmr0EDiPEe68jYDRN-6ChQ" label="ES_GLEGAL_BI" name="ES_GLEGAL_BI" supportNLS="false" xmi:id="_0MYncDiPEe68jYDRN-6ChQ">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_0MYncTiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="package filter" value="" xmi:id="_0NIOUDiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="Status" value="" xmi:id="_0NIOUTiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_0NIOUjiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_0NIOUziPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="Description" value="" xmi:id="_0NIOVDiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="Author" value="" xmi:id="_0NIOVTiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="otherParameter" xmi:id="_0NIOVjiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="DB ProductName" value="Oracle" xmi:id="_0OdrEDiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="DB ProductVersion" value="Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production&#10;Version 19.12.0.0.0" xmi:id="_0OdrETiPEe68jYDRN-6ChQ"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_0OdrEjiPEe68jYDRN-6ChQ"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.ES_GLEGAL_BI_Login" xmi:id="_0MYncjiPEe68jYDRN-6ChQ"/>
+    <parameters key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value="" xmi:id="_N6GUINaDEe6X0qTOScZYrg"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema dataManager="_0MYncDiPEe68jYDRN-6ChQ" name="ES_GLEGAL_BI" xmi:id="_lkfs4NaDEe6X0qTOScZYrg"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c3f0c711-4c00-4f9d-9cc0-0956c2042f60"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0+lFMDx2wUPC7YKvqjvcLaP36e5CLSYzYcSCzrMEgf1KDgK5jnv+Cvl6Uhns0JSAHSAuayW/81qT&#13;
+lPUlYJwieA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3cb9bef0-79f7-4f0f-a3c2-3c13bf286779"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VqFfX8QDQsyx2mgB/TKzoTIfQJmtlB498KnO0DNm8jfhybHDiKy6lLxF3MG6i09Fp0NvOQfWZ5eF&#13;
+B5OiWL6uDg==</DigestValue></Reference></SignedInfo><SignatureValue>UGL+FWKQRmpM/L15C+fQGqvppD9Kxe9wkl6PP09AbVjy8/LWV0zrQfL+esexvPVpGFlYqJvyTjsU&#13;
+5CepG874WItdFLqHsfIuj5s93gdkcX8GqpYVOf1oFu4tlzlWdqP0CLhIZAyscqw47F08c2mJdQJm&#13;
+1hq2+eHLJNrnMl7INgH7V0s9TpmCpZw7axRHuN4zqXM8QNWTCBGTXNb0J7T6qSTpxqEQ0P4hzZaY&#13;
++uN0bV1Kv+y/5fALhrbXU7OdWUyajkIpHeEyXex6UspL+zBvoHTU9s5gTK61zkCdJWLNhLKfQIi6&#13;
+xgen/onuMc1V4SKlBJvEFNL2jGMtj/ESyonl+g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3cb9bef0-79f7-4f0f-a3c2-3c13bf286779" Target="#_c3f0c711-4c00-4f9d-9cc0-0956c2042f60"><Timestamp>2024-08-19 23:12:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

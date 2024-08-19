@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:FileExcelConnection Encoding="UTF-8" FilePath="D:/Reporte de Cierre del SYM_Historico.xlsx" FirstLineCaption="true" FooterValue="0" HeaderValue="3" LimitValue="" Server="Localhost 127.0.0.1" SheetName="Sheet1" UseHeader="true" dataPackage="_yJvwUamYEe6or7WGx4PpUQ" decimalSeparator="'.'" firstColumn="1" generationMode="EVENT_MODE" id="_yJvJQKmYEe6or7WGx4PpUQ" lastColumn="" name="fxl_SYM_ReporteSymHistorico" selectAllSheets="true" sheetList="Sheet1:w&#10;" thousandSeparator="','" xmi:id="_yJvwUKmYEe6or7WGx4PpUQ">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+    <sheetColumns>P</sheetColumns>
+    <sheetColumns>Q</sheetColumns>
+    <sheetColumns>R</sheetColumns>
+    <sheetColumns>S</sheetColumns>
+    <sheetColumns>T</sheetColumns>
+    <sheetColumns>U</sheetColumns>
+    <sheetColumns>V</sheetColumns>
+    <sheetColumns>W</sheetColumns>
+    <sheetColumns>X</sheetColumns>
+    <sheetColumns>Y</sheetColumns>
+    <sheetColumns>Z</sheetColumns>
+    <sheetColumns>AA</sheetColumns>
+    <sheetColumns>AB</sheetColumns>
+    <sheetColumns>AC</sheetColumns>
+    <sheetColumns>AD</sheetColumns>
+    <sheetColumns>AE</sheetColumns>
+    <sheetColumns>AF</sheetColumns>
+    <sheetColumns>AG</sheetColumns>
+    <sheetColumns>AH</sheetColumns>
+    <sheetColumns>AI</sheetColumns>
+    <sheetColumns>AJ</sheetColumns>
+    <sheetColumns>AK</sheetColumns>
+    <sheetColumns>AL</sheetColumns>
+    <sheetColumns>AM</sheetColumns>
+    <sheetColumns>AN</sheetColumns>
+    <sheetColumns>AO</sheetColumns>
+    <sheetColumns>AP</sheetColumns>
+    <sheetColumns>AQ</sheetColumns>
+    <sheetColumns>AR</sheetColumns>
+    <sheetColumns>AS</sheetColumns>
+    <sheetColumns>AT</sheetColumns>
+    <sheetColumns>AU</sheetColumns>
+    <sheetColumns>AV</sheetColumns>
+    <sheetColumns>AW</sheetColumns>
+    <sheetColumns>AX</sheetColumns>
+    <sheetColumns>AY</sheetColumns>
+    <sheetColumns>AZ</sheetColumns>
+    <sheetColumns>BA</sheetColumns>
+    <sheetColumns>BB</sheetColumns>
+    <sheetColumns>BC</sheetColumns>
+    <sheetColumns>BD</sheetColumns>
+    <sheetColumns>BE</sheetColumns>
+    <sheetColumns>BF</sheetColumns>
+    <sheetColumns>BG</sheetColumns>
+    <sheetColumns>BH</sheetColumns>
+    <sheetColumns>BI</sheetColumns>
+    <sheetColumns>BJ</sheetColumns>
+    <sheetColumns>BK</sheetColumns>
+    <sheetColumns>BL</sheetColumns>
+    <sheetColumns>BM</sheetColumns>
+    <sheetColumns>BN</sheetColumns>
+    <sheetColumns>BO</sheetColumns>
+    <sheetColumns>BP</sheetColumns>
+    <sheetColumns>BQ</sheetColumns>
+    <sheetColumns>BR</sheetColumns>
+    <sheetColumns>BS</sheetColumns>
+    <sheetColumns>BT</sheetColumns>
+    <sheetColumns>BU</sheetColumns>
+    <sheetColumns>BV</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_yJvwUKmYEe6or7WGx4PpUQ" name="default" xmi:id="_yJvwUamYEe6or7WGx4PpUQ">
+    <ownedElement id="_-DYGMKmXEe6or7WGx4PpUQ" label="metadata" xmi:id="_yJvwUqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="TIPSAN_DESCRIPCION" length="34" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwU6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AREA" length="49" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwVKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEPENDENCIA" length="56" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwVamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SECTOR" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwVqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SUB_SECTOR" length="22" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwV6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NRO__EXPEDIENTE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwWKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NRO__RESOLUCION" length="19" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwWamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FECHA_DE_EMISION_DE_RESOLUCION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_yJvwWqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FECHA_INICIO_PAS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_yJvwW6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FECHA_NOTIFICACION_DE_RESOLUCION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_yJvwXKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NRO__DE_ULTIMA_RESOLUCION_QUE_MODIFICA_SALDO" length="21" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwXamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TIPO_DE_ULTIMA_RESOLUCION_QUE_MODIFICA_SALDO" length="32" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwXqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FECHA_EMISION_DE_ULTIMA_RESOLUCION_QUE_MODIFICA_SALDO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_yJvwX6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FECHA_EMISION_DE_LA_REC_1" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_yJvwYKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HOJA_REMISION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwYamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NRO__IDENTIFICACION" length="11" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwYqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RAZON_SOCIAL" length="89" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwY6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ID_INDRACCION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwZKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ID_INFRACCION_TODO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwZamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NRO__INFRACCION" length="12" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwZqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CONCATENA_ID___NRO_INFRAC" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwZ6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ESTADO_INFRACCION" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwaKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HISTORICO" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwaamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NRO_UIT" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwaqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MO_KWATT" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwa6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MO_TOTAL" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwbKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MO_DESCUENTO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwbamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MO_PAGADO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwbqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MONTO_CIERRE_DE_SALDO_POR_INFRACCION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwb6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TIPO_DE_CIERRE_DE_SALDO_POR_INFRACCION" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwcKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FECHA_CIERRE_DE_SALDO_POR_INFRACCION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_yJvwcamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REDONDEO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwcqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MONTO_DE_AJUSTE_CONTABLE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwc6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ETAPA_POR_EXPEDIENTE_INICIAL" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwdKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ETAPA_POR_INFRACCION_INICIAL" length="17" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwdamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ACTIVIDAD_INICIAL" length="34" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwdqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ESTADO_DE_COBRANZA_COACTIVA_INICIAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwd6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ESTADO_DEL_EXPEDIENTE_INICIAL" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvweKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CAUSAL_DE_CIERRE_DE_EXPEDIENTE_INICIAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvweamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OBSERVACION_O_MOTIVO_DE_CIERRE_INICIAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvweqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALDO_INICIAL" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwe6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUEVOS_INGRESOS_OTROS" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwfKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUEVAS_RESOLUCIONES_MES_01" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwfamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUEVAS_RESOLUCIONES_MES_02" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwfqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUEVAS_RESOLUCIONES_MES_03" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwf6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PAGOS_MES_01" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwgKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PAGOS_MES_02" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwgamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PAGOS_MES_03" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwgqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DESCUENTOS_MES_01" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwg6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DESCUENTOS_MES_02" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwhKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DESCUENTOS_MES_03" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwhamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REDONDEO_MES_1__2_Y_3" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwhqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AJUSTE_CONTABLE_MES_1__2_Y_3" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwh6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_CAMBIO_DE_UIT" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwiKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_INFRACCION" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwiamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_PAGO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwiqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_DESCUENTO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwi6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_AJUSTE_CONTABLE" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwjKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_REDONDEO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwjamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_POR_CIERRE_DE_SALDO" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwjqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TOTAL_DE_VARIACIONES" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwj6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OTRAS_VARIACIONES" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwkKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="VARIACIONES_MES_01_A_03" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwkamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SALDO_POR_INFRACION_ACTUAL" length="-1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_BigDecimal" xmi:id="_yJvwkqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ETAPA_POR_EXPEDIENTE_ACTUAL" length="20" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwk6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ETAPA_POR_INFRACCION_ACTUAL" length="17" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwlKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ACTIVIDAD_ACTUAL" length="34" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwlamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ESTADO_DE_COBRANZA_COACTIVA_ACTUAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwlqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ESTADO_DEL_EXPEDIENTE_ACTUAL" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwl6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CAUSAL_DE_CIERRE_DE_EXPEDIENTE_ACTUAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwmKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OBSERVACION_O_MOTIVO_DE_CIERRE_ACTUAL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwmamYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ESTADO_DE_COBRANZA__DUDOSA_ONEROSA" length="45" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwmqmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OBSERVACIONES" length="38" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwm6mYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="OBSERVACIONES_HISTORICO" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_yJvwnKmYEe6or7WGx4PpUQ" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_205d39bb-bc7d-4d6f-b3cf-3637b399bfe7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>U4HWd1NPGe3PQRAYmv7gidXtmHRinOzvhyW9lIbODTmr0RKgRuubooF3v8t99iJ333Whp9jnFqeB&#13;
+BGJDso5vEA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ec313ec2-e10c-457e-9a3f-f04089cf1430"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LHBQSqHTM0WqPUCvlUtvo0Nuhbw+L87uTrdZ24L61nc0zURFp1KU1M+3RC8REWDE3x/y7XfuT6VV&#13;
+2tvf37i52Q==</DigestValue></Reference></SignedInfo><SignatureValue>lSpTn4s/0wu70Ei0Tn7gBFfxlVRbve8s1r9a2rJjIVwRsMzPoIVi7Ft11wu+Hz4x6mhlHsN3alfY&#13;
+/3mQl4HwiXzudZVJkoWloVaHOWXaqEsIdO6xjSxvHkab4QWNGJZ5GL9UD62+GYfwTsZrs3xEtuHv&#13;
+V1hfy28hWznhpPu5bOxRkPEubs26V0cLZdSCYAw0wo4IjB2JxbPJ85+z1+dz5Nva96Uqmc7CLdF7&#13;
+5naUHpT+Sqy4+uPSDuVHzBZp0nMTRNeXLsYSWD4Lbp5BZKGVMEs99klxVBSuDy556mnpmA5jHE86&#13;
+Q8OcS5ptqDaERgB+oJZmecCVu8LaOqJtYaHQwA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ec313ec2-e10c-457e-9a3f-f04089cf1430" Target="#_205d39bb-bc7d-4d6f-b3cf-3637b399bfe7"><Timestamp>2024-08-19 23:12:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
