@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_i175wMRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Schema" prompt="orcl_O19D01_ES_SYM_BI_RO_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_SYM_BI" xmi:id="_i175wcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Port" prompt="orcl_O19D01_ES_SYM_BI_RO_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1600" xmi:id="_i175wsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Sid" prompt="orcl_O19D01_ES_SYM_BI_RO_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="O19D01" xmi:id="_i175w8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Server" prompt="orcl_O19D01_ES_SYM_BI_RO_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.23.17" xmi:id="_i175xMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Login" prompt="orcl_O19D01_ES_SYM_BI_RO_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="US_ODSSYM_BI_STG" xmi:id="_i175xcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Password" prompt="orcl_O19D01_ES_SYM_BI_RO_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mwRxr2GEd18JxTe0Njw5kPN/ShtnS1qL+ZN7ieu0pT6vYQ==" xmi:id="_i175xsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_AdditionalParams" prompt="orcl_O19D01_ES_SYM_BI_RO_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i175x8RMEe6OM7m1t4tgXQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRD" xmi:id="_i175yMRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Schema" prompt="orcl_O19D01_ES_SYM_BI_RO_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_SYM_BI" xmi:id="_i175ycRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Port" prompt="orcl_O19D01_ES_SYM_BI_RO_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1600" xmi:id="_i175ysRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Sid" prompt="orcl_O19D01_ES_SYM_BI_RO_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="O19P01" xmi:id="_i175y8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Server" prompt="orcl_O19D01_ES_SYM_BI_RO_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.20.25" xmi:id="_i175zMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Login" prompt="orcl_O19D01_ES_SYM_BI_RO_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="US_ODSSYM_BI_STG" xmi:id="_i175zcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Password" prompt="orcl_O19D01_ES_SYM_BI_RO_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:VfyJELJdL7QMZEIF620X6XZeL3tLbNreSA2rFsgt9D4PUr2VVduPiQ+mNg==" xmi:id="_i175zsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_AdditionalParams" prompt="orcl_O19D01_ES_SYM_BI_RO_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i175z8RMEe6OM7m1t4tgXQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QAS" xmi:id="_i1750MRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Schema" prompt="orcl_O19D01_ES_SYM_BI_RO_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ES_SYM_BI" xmi:id="_i1750cRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Port" prompt="orcl_O19D01_ES_SYM_BI_RO_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1600" xmi:id="_i1750sRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Sid" prompt="orcl_O19D01_ES_SYM_BI_RO_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="O19D01" xmi:id="_i17508RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Server" prompt="orcl_O19D01_ES_SYM_BI_RO_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.23.17" xmi:id="_i1751MRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Login" prompt="orcl_O19D01_ES_SYM_BI_RO_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="US_ODSSYM_BI_STG" xmi:id="_i1751cRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_Password" prompt="orcl_O19D01_ES_SYM_BI_RO_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:QiBhxc9w3ga+u16inuokdIIpy0G3hXP7YSKeIjH8tYVWgg==" xmi:id="_i1751sRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="" name="orcl_O19D01_ES_SYM_BI_RO_AdditionalParams" prompt="orcl_O19D01_ES_SYM_BI_RO_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_i17518RMEe6OM7m1t4tgXQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cd7da19c-a799-4e08-9fef-d381bba05719"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>mL1YoE9dH/VpVINE5WQ5D3ok4g0pESRqUwym+nHdwhAkU11dhoqjwMgz6iD00mfZMoornXwYWSVF&#13;
+PKjJMKNgYw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa4a4957-50ba-4ecb-9f25-1da7345c16dd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8KTW9ARe6YwMfNmgrpDnnrVm6qgKEyCRA42gK8+h/sM7tlnIfrEyXbh0to8OAWJeKQOp5w4gSMEO&#13;
+Eq/eskLcCA==</DigestValue></Reference></SignedInfo><SignatureValue>CFl63U6iWaYXdpbFjyW0kwe4ADL1B1lZisiH2vF2C4B5IhV7tY8XSeUH4d/hE+KSl9nx01UVJjCA&#13;
+LcF9EeoH7gNINC01cQ4Dzn6VI5UfkMihT7BAHRMMhNFPQdDvrB8vW891LeY5DNWAzSYL2RVT4j2L&#13;
+DuJa2hIrW+CkgFs28aB+bjyUq9nj7gZdlJ0bSXekJZXsUIEEDblmX5FpbWXYVtggykuoY0p+vqSs&#13;
+AW+vLTkfhzuQI2BLgTMOMfem2gYCBpUmQKWub9i10+n5wo1tBnLV+gTgry/M1uDgTYL38zw7n+Hr&#13;
+JqXp4uNBrVlYf/3/Go5FVNIFVZ4/he49HKK8pA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa4a4957-50ba-4ecb-9f25-1da7345c16dd" Target="#_cd7da19c-a799-4e08-9fef-d381bba05719"><Timestamp>2024-08-22 19:58:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

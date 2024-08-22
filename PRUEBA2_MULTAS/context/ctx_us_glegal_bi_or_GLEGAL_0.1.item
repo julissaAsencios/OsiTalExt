@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="DEV" xmi:id="_phQS0NaCEe6X0qTOScZYrg">
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Port" prompt="us_glegal_bi_or_GLEGAL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521" xmi:id="_phQS0daCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Sid" prompt="us_glegal_bi_or_GLEGAL_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESASIGED" xmi:id="_phQS0taCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Schema" prompt="us_glegal_bi_or_GLEGAL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GLEGAL" xmi:id="_phQS09aCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Password" prompt="us_glegal_bi_or_GLEGAL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:PanrxCD7ofhtl3LZsea9/pTvP9wb1WORO3gT9/+J2h1o" xmi:id="_phQS1NaCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Login" prompt="us_glegal_bi_or_GLEGAL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="us_glegal_bi_or" xmi:id="_phQS1daCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_phQS1taCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Server" prompt="us_glegal_bi_or_GLEGAL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.23.11" xmi:id="_phQS19aCEe6X0qTOScZYrg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="PRD" xmi:id="_phQS2NaCEe6X0qTOScZYrg">
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Port" prompt="us_glegal_bi_or_GLEGAL_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521" xmi:id="_phQS2daCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Sid" prompt="us_glegal_bi_or_GLEGAL_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="OSIPRD01" xmi:id="_phQS2taCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Schema" prompt="us_glegal_bi_or_GLEGAL_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GLEGAL" xmi:id="_phQS29aCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Password" prompt="us_glegal_bi_or_GLEGAL_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:vWQbmMzjw9lq74z2FON9IHCgAPYgUD7t0AX/eCQRyPAqsyE=" xmi:id="_phQS3NaCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Login" prompt="us_glegal_bi_or_GLEGAL_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="us_glegal_bi_or" xmi:id="_phQS3daCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_phQS3taCEe6X0qTOScZYrg"/>
+    <contextParameter comment="" name="us_glegal_bi_or_GLEGAL_Server" prompt="us_glegal_bi_or_GLEGAL_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="11.160.121.161" xmi:id="_phQS39aCEe6X0qTOScZYrg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9aaab62e-08d9-4d88-b263-9e86c8321ad5"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CNxYXyOC59ef1TdXol8DBuvuWpOoMEGNgWkDbVNCUi1MX/PQ0o12usf+AXOQrpLsQkPqTGby388K&#13;
+5C2BWP8Lhg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7a2b6e9c-d63b-4834-bc4c-da9b567f5231"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JMOsi7oF4jf9+qVMw6HT+mgUn/ai3yTkm/H2KluklbR2qtXKwBEEIkbXaKaS0zTMBG4HLX5U2fQW&#13;
+ZhF/NK/Uqg==</DigestValue></Reference></SignedInfo><SignatureValue>HUI8gFqgV7PWv8kvtVQCFHYqEP2x3rwSvwStfGb2h5OEUawICQx5D2bMFidiSd4rJO11rcLz6BGL&#13;
+E3sL3IRyvwYNUPhck7My9y7jbRaefvdYh6ef4bfsACmuJLtOJslrOtYkqeP7oMQzRn8kKsm1llp+&#13;
+pYUYav6zyaaRExaIArg2WwBxZUweDa9qSjzx58Sy95j9LUNw2/IU/ES+Yvk74xAKUAp3JdDFtSQ6&#13;
+JSd4GT4gUTMRJHvxoPHIvUDuOew01zhv0856op98Xp2QnThOWvYHQI1lR7HPrYmiC0aVkRxxzatb&#13;
+f6gUQhqecpKSIOf8ZoV+Xi9flQMxXgonG7L7rA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7a2b6e9c-d63b-4834-bc4c-da9b567f5231" Target="#_9aaab62e-08d9-4d88-b263-9e86c8321ad5"><Timestamp>2024-08-22 19:58:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

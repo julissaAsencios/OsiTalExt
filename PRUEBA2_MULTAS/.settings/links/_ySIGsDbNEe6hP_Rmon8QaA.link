@@ -1,0 +1,29 @@
+{
+  "itemId" : "_ySIGsDbNEe6hP_Rmon8QaA",
+  "contextList" : [ {
+    "contextName" : "PRD",
+    "repoId" : "_pg8w0NaCEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_phQS2daCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Port"
+    }, {
+      "id" : "_phQS2taCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Sid"
+    }, {
+      "id" : "_phQS29aCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Schema"
+    }, {
+      "id" : "_phQS3NaCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Password"
+    }, {
+      "id" : "_phQS3daCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Login"
+    }, {
+      "id" : "_phQS3taCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_AdditionalParams"
+    }, {
+      "id" : "_phQS39aCEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Server"
+    } ]
+  } ]
+}

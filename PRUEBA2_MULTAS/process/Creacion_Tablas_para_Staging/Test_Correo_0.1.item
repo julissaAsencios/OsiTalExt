@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_uVVs4NaCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Port" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_uVVs4daCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Sid" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESASIGED"/>
+    <contextParameter comment="" internalId="_uVVs4taCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Schema" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GLEGAL"/>
+    <contextParameter comment="" internalId="_uVVs49aCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Password" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:KWUgsLgDK9FPE5q3NYJxuB1RciFqqoTxSLRApWU+0hKK"/>
+    <contextParameter comment="" internalId="_uVVs5NaCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Login" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="us_glegal_bi_or"/>
+    <contextParameter comment="" internalId="_uVVs5daCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_uVVs5taCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Server" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.23.11"/>
+    <contextParameter comment="" internalId="_My2YMNaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Sid" prompt="us_glegal_bi_or_GLEGAL_Sid?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="OSIPRD01"/>
+    <contextParameter comment="" internalId="_My2YMdaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Password" prompt="us_glegal_bi_or_GLEGAL_Password?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_Password" value="enc:system.encryption.key.v1:4K579FdjMF5WBJkF4HjrvhHS8wolYOL44AxYMyKZTyPIBbw="/>
+    <contextParameter comment="" internalId="_My2YMtaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Server" prompt="us_glegal_bi_or_GLEGAL_Server?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="11.160.121.161"/>
+    <contextParameter comment="" internalId="_My2YM9aDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Port" prompt="us_glegal_bi_or_GLEGAL_Port?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_My2YNNaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_AdditionalParams?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_My2YNdaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Schema" prompt="us_glegal_bi_or_GLEGAL_Schema?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="GLEGAL"/>
+    <contextParameter comment="" internalId="_My2YNtaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Login" prompt="us_glegal_bi_or_GLEGAL_Login?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="us_glegal_bi_or"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="PRD">
+    <contextParameter comment="" internalId="_uVVs59aCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Port" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_uVVs6NaCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Sid" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESASIGED"/>
+    <contextParameter comment="" internalId="_uVVs6daCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Schema" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GLEGAL"/>
+    <contextParameter comment="" internalId="_uVVs6taCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Password" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:hhnYgILEqfRniCTELDeA0yybE3/bFXndTphLB0fq3XFh"/>
+    <contextParameter comment="" internalId="_uVVs69aCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Login" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="us_glegal_bi_or"/>
+    <contextParameter comment="" internalId="_uVVs7NaCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_uVVs7daCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Server" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.23.11"/>
+    <contextParameter comment="" internalId="_My2YN9aDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Sid" prompt="us_glegal_bi_or_GLEGAL_Sid?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="OSIPRD01"/>
+    <contextParameter comment="" internalId="_My2YONaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Password" prompt="us_glegal_bi_or_GLEGAL_Password?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_Password" value="enc:system.encryption.key.v1:HoPRLz5xL+ULr1jdXfNnr/MhM3O+WnxwdrCS2Ogb1cJTGPg="/>
+    <contextParameter comment="" internalId="_My2YOdaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Server" prompt="us_glegal_bi_or_GLEGAL_Server?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="11.160.121.161"/>
+    <contextParameter comment="" internalId="_My2YOtaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Port" prompt="us_glegal_bi_or_GLEGAL_Port?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_My2YO9aDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_AdditionalParams?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_My2YPNaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Schema" prompt="us_glegal_bi_or_GLEGAL_Schema?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="GLEGAL"/>
+    <contextParameter comment="" internalId="_My2YPdaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Login" prompt="us_glegal_bi_or_GLEGAL_Login?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="us_glegal_bi_or"/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="DEV">
+    <contextParameter comment="" internalId="_uVVs7taCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Port" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_uVVs79aCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Sid" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DESASIGED"/>
+    <contextParameter comment="" internalId="_uVVs8NaCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Schema" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="GLEGAL"/>
+    <contextParameter comment="" internalId="_uVVs8daCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Password" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:mdiVzlLJlel42u+PPa1zq87rAxKarpDYk2xy+xX7qJtA"/>
+    <contextParameter comment="" internalId="_uVVs8taCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Login" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="us_glegal_bi_or"/>
+    <contextParameter comment="" internalId="_uVVs89aCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_uVVs9NaCEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_SIGED_DESA_Server" prompt="us_glegal_bi_or_GLEGAL_SIGED_DESA_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="10.10.23.11"/>
+    <contextParameter comment="" internalId="_My2YPtaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Sid" prompt="us_glegal_bi_or_GLEGAL_Sid?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="DESASIGED"/>
+    <contextParameter comment="" internalId="_My2YP9aDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Password" prompt="us_glegal_bi_or_GLEGAL_Password?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_Password" value="enc:system.encryption.key.v1:ct4uDymHvA0AVi+kQ6aorhN0uALHUEiTG6r4Zfo2amh5"/>
+    <contextParameter comment="" internalId="_My2YQNaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Server" prompt="us_glegal_bi_or_GLEGAL_Server?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="10.10.23.11"/>
+    <contextParameter comment="" internalId="_My2YQdaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Port" prompt="us_glegal_bi_or_GLEGAL_Port?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="1521"/>
+    <contextParameter comment="" internalId="_My2YQtaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_AdditionalParams" prompt="us_glegal_bi_or_GLEGAL_AdditionalParams?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_My2YQ9aDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Schema" prompt="us_glegal_bi_or_GLEGAL_Schema?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="GLEGAL"/>
+    <contextParameter comment="" internalId="_My2YRNaDEe6X0qTOScZYrg" name="us_glegal_bi_or_GLEGAL_Login" prompt="us_glegal_bi_or_GLEGAL_Login?" promptNeeded="false" repositoryContextId="_pg8w0NaCEe6X0qTOScZYrg" type="id_String" value="us_glegal_bi_or"/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:jxqrpGSuu3FWvODphbd0adSvB+yB6p92oCIOwObH"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;E:/Sphere/WorkSpaceTalend/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="JDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:eV2NzQXut+xXCTS2F5ICsJM79KVIX+nlMS6aLclQ"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_0cyvxbGVEe6Mw6tL9Hyglw" name="DataOperation"/>
+    <routinesParameter id="_0c8gwLGVEe6Mw6tL9Hyglw" name="Mathematical"/>
+    <routinesParameter id="_0dGRwLGVEe6Mw6tL9Hyglw" name="Numeric"/>
+    <routinesParameter id="_0dGRyrGVEe6Mw6tL9Hyglw" name="Relational"/>
+    <routinesParameter id="_0bwN8rGVEe6Mw6tL9Hyglw" name="SQLike"/>
+    <routinesParameter id="_0dPbtrGVEe6Mw6tL9Hyglw" name="StringHandling"/>
+    <routinesParameter id="_0dZMtrGVEe6Mw6tL9Hyglw" name="TalendDataGenerator"/>
+    <routinesParameter id="_0di9trGVEe6Mw6tL9Hyglw" name="TalendDate"/>
+    <routinesParameter id="_0d14prGVEe6Mw6tL9Hyglw" name="TalendStringUtil"/>
+    <routinesParameter id="_0dsHprGVEe6Mw6tL9Hyglw" name="TalendString"/>
+  </parameters>
+  <node componentName="tSendMail" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="288">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="TEXT" name="TO" value="&quot;carlos.espinoza@sphere.com.pe&quot;"/>
+    <elementParameter field="TEXT" name="FROM" value="&quot;talend_job@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="CHECK" name="NEED_PERSONAL_NAME" value="false"/>
+    <elementParameter field="TEXT" name="PERSONAL_NAME" show="false" value="&quot;sender&quot;"/>
+    <elementParameter field="TEXT" name="CC" value=""/>
+    <elementParameter field="TEXT" name="BCC" value=""/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Multiples destinatarios&quot;"/>
+    <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;El error es: &quot; + (String)globalMap.get(&quot;emailMessage&quot;) + &quot;\n&quot; +&#13;&#10;&quot;El job comenzó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStart_1_STARTTIME&quot;))) + &quot;\n&quot; +&#13;&#10;&quot;El job terminó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStop_1_STOPTIME&quot;)))"/>
+    <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
+    <elementParameter field="TABLE" name="ATTACHMENTS"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="SMTP_HOST" value="&quot;11.160.121.76&quot;"/>
+    <elementParameter field="TEXT" name="SMTP_PORT" value="25"/>
+    <elementParameter field="CHECK" name="SSL" value="false"/>
+    <elementParameter field="CHECK" name="STARTTLS" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_MODE" value="BASIC"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;talend_job@osinergmin.gob.pe&quot;"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:jp8WqFGqR/ui39cATFpISOtKgfTicIctddCDeztG"/>
+    <elementParameter field="PASSWORD" name="TOKEN" show="false" value="enc:system.encryption.key.v1:xq45wHESZYjuw35hVgaIhgt+sgrdUUrYYB8FlgzzPP2uSpYXBpo="/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SET_LOCALHOST" value="false"/>
+    <elementParameter field="TEXT" name="LOCALHOST" show="false" value="&quot;localhost&quot;"/>
+    <elementParameter field="CHECK" name="USE_TWO_LINE_TOKEN" show="false" value="false"/>
+    <elementParameter field="TABLE" name="CONFIGS"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tSendMail_1"/>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_ySIGsDbNEe6hP_Rmon8QaA"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;10.10.23.11&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.us_glegal_bi_or_GLEGAL_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.us_glegal_bi_or_GLEGAL_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.us_glegal_bi_or_GLEGAL_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;DESASIGED&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.us_glegal_bi_or_GLEGAL_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.us_glegal_bi_or_GLEGAL_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gC2BTvrQ7NttWx1+5MIEh1xHaLyyZrlv3QGjPTVS8S8FxmwPfV221+u1cy4n8hnoEP1wDkoGcAGvQOmMQmsFPtu74Q=="/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" show="false" value="_ySIGsDbNEe6hP_Rmon8QaA - COA_A_UBIG"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;COA_A_UBIG&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  GLEGAL.COA_A_UBIG.UBIG_CODDEP, &#10;  GLEGAL.COA_A_UBIG.UBIG_CODPRV, &#10;  GLEGAL.COA_A_UBIG.UBIG_CODDIS, &#10;  GLEGAL.COA_A_UBIG.UBIG_DESUBI, &#10;  GLEGAL.COA_A_UBIG.UBIG_NEMUBI, &#10;  GLEGAL.COA_A_UBIG.UBIG_CODPOS, &#10;  GLEGAL.COA_A_UBIG.VUSERMODIF, &#10;  GLEGAL.COA_A_UBIG.DFECMODIF, &#10;  GLEGAL.COA_A_UBIG.DFECCREA, &#10;  GLEGAL.COA_A_UBIG.VUSERCREA, &#10;  GLEGAL.COA_A_UBIG.VTERMINAL&#10;FROM GLEGAL.COA_A_UBIG&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.us_glegal_bi_or_GLEGAL_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODDEP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODPRV"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODDIS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_DESUBI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_NEMUBI"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODPOS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VUSERMODIF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DFECMODIF"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DFECCREA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VUSERCREA"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VTERMINAL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NLS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="COA_A_UBIG" name="tDBInput_1">
+      <column comment="" key="true" length="2" name="UBIG_CODDEP" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="2" name="UBIG_CODPRV" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="2" name="UBIG_CODDIS" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="UBIG_DESUBI" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="UBIG_NEMUBI" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="UBIG_CODPOS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Usuario de modificacion" key="false" length="20" name="VUSERMODIF" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de modificacion"/>
+      </column>
+      <column comment="Fecha de modificacion" key="false" length="7" name="DFECMODIF" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de modificacion"/>
+      </column>
+      <column comment="Fecha de creacion" key="false" length="7" name="DFECCREA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de creacion"/>
+      </column>
+      <column comment="Usuario de creacion" key="false" length="20" name="VUSERCREA" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de creacion"/>
+      </column>
+      <column comment="Equipo terminal" key="false" length="20" name="VTERMINAL" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Equipo terminal"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODDEP"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODPRV"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODDIS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_DESUBI"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_NEMUBI"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UBIG_CODPOS"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VUSERMODIF"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DFECMODIF"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DFECCREA"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VUSERCREA"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VTERMINAL"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="COA_A_UBIG" name="tLogRow_1">
+      <column comment="" key="true" length="2" name="UBIG_CODDEP" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="2" name="UBIG_CODPRV" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="2" name="UBIG_CODDIS" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="UBIG_DESUBI" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="UBIG_NEMUBI" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="3" name="UBIG_CODPOS" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="Usuario de modificacion" key="false" length="20" name="VUSERMODIF" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de modificacion"/>
+      </column>
+      <column comment="Fecha de modificacion" key="false" length="7" name="DFECMODIF" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de modificacion"/>
+      </column>
+      <column comment="Fecha de creacion" key="false" length="7" name="DFECCREA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value="Fecha de creacion"/>
+      </column>
+      <column comment="Usuario de creacion" key="false" length="20" name="VUSERCREA" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Usuario de creacion"/>
+      </column>
+      <column comment="Equipo terminal" key="false" length="20" name="VTERMINAL" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value="Equipo terminal"/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tChronometerStart" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStart_1"/>
+    <elementParameter field="TEXT" name="CAPTION" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tChronometerStop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStop_1"/>
+    <elementParameter field="RADIO" name="SINCE_BEGINNING" value="false"/>
+    <elementParameter field="RADIO" name="SINCE_STARTER" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="STARTER" value="tChronometerStart_1"/>
+    <elementParameter field="CHECK" name="DISPLAY" value="true"/>
+    <elementParameter field="CHECK" name="DISPLAY_COMPONENT_NAME" value="true"/>
+    <elementParameter field="TEXT" name="CAPTION" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DISPLAY_READABLE_DURATION" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLogRow_1" offsetLabelX="0" offsetLabelY="0" source="tLogRow_1" target="tChronometerStop_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tChronometerStart_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStart_1" target="tDBInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tChronometerStop_1" offsetLabelX="0" offsetLabelY="0" source="tChronometerStop_1" target="tSendMail_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSendMail_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStart_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tChronometerStop_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7becc8a6-b4cc-4d7d-abc6-caec9ff89f2d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LuUSnlRi2n6Ls2ICgDaPkxvyGl1K0TKvD6npQvI3Sy5Ti7Kr5wTxcwKiTEO2a2s7HzcYdP6dW3BC&#13;
+rrT4C5imlw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f0937243-d119-46ac-9efd-bcfc4e9bf320"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uempND+xGWZ9aQi4kh9B4d05RQtoAr0pIHW+adl2G33lgO1aClrQXb3nmcwLYMdorz6BO02dI56F&#13;
+lO6CGnPo4w==</DigestValue></Reference></SignedInfo><SignatureValue>eFTLZa4r42X9DN7dJOKCWGXnyTfyxnEjJ8S4KoBRWxFwsTSGQEoZdZue3dJaICGFz3IqLaR3vTWZ&#13;
+8yUfm7zl0RR6rCR5IMnW4qmuu7Sx/OCtPK/ix4Amy0dGreYrvpplW19s95Hy5/+fk1y0n3K1I9vX&#13;
+xwYUDVMqDL9pjc+BrIDa+jjFvnfvBmkStrkNIZhu79Pzy/DDrmfPoRCnTKbv99BCTbVnzSKv7lHH&#13;
+iVgu1tf9AuX9yf74xtRF9/mYcEuR+XSuy22mto342lzcicvCDsut3U2LdkRS6cfFDk16HFXReQB4&#13;
+g0jQvdnlWZ6M1GqpKd4mhmMFgwkQLMcl0PBsGA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f0937243-d119-46ac-9efd-bcfc4e9bf320" Target="#_7becc8a6-b4cc-4d7d-abc6-caec9ff89f2d"><Timestamp>2024-08-22 19:58:27</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_oIk4EMRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="Fecha de corte" name="v_fechaCorte" prompt="v_fechaCorte?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="2000-01-01 00:00:00" xmi:id="_oIk4EcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Tipo de ejecucion" name="p_tipoProceso" prompt="¿p_tipoProceso (P/R)?" promptNeeded="true" repositoryContextId="built-in" type="id_Character" value="P" xmi:id="_oIk4EsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Variable que setea el valor de la ejecucion para la tabla" name="v_idPagosRealizados" prompt="v_idPagosRealizados?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="9999" xmi:id="_oIlfIMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Informacion del usuario a ser insertado en las tablas destino" name="p_usuario" prompt="p_usuario?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM_LIMPIEZA" xmi:id="_oIlfIcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Parametro de IP que se inserta de forma fija en las tablas destino" name="p_ip" prompt="p_ip?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1" xmi:id="_oIlfIsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Servidor para la configuracion del servidor SMTP de email" name="p_smtpHost" prompt="p_smtpHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="11.160.121.76" xmi:id="_oIlfJcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Usuario para la configuracion del servidor SMTP de email" name="p_smtpUser" prompt="p_smtpUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_job@osinergmin.gob.pe" xmi:id="_oIlfJsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Puerto para la configuracion del servidor SMTP de email" name="p_smtpPort" prompt="p_smtpPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25" xmi:id="_oIlfJ8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Contraseña para la configuracion del servidor SMTP de email" name="p_smtpPass" prompt="p_smtpPass?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_oIlfKMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Email Origen para los mensajes de ejecución fallida" name="p_emailFrom" prompt="p_emailFrom?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_job@osinergmin.gob.pe" xmi:id="_F8O1UM0lEe6uOK2NnY5Wsg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PRD" xmi:id="_oIlfKcRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="Fecha de corte" name="v_fechaCorte" prompt="v_fechaCorte?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="2000-01-01 00:00:00" xmi:id="_oIlfKsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Tipo de ejecucion" name="p_tipoProceso" prompt="¿p_tipoProceso (P/R)?" promptNeeded="true" repositoryContextId="built-in" type="id_Character" value="P" xmi:id="_oIlfK8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Variable que setea el valor de la ejecucion para la tabla" name="v_idPagosRealizados" prompt="v_idPagosRealizados?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="9999" xmi:id="_oIlfLMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Informacion del usuario a ser insertado en las tablas destino" name="p_usuario" prompt="p_usuario?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM_LIMPIEZA" xmi:id="_oIlfLcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Parametro de IP que se inserta de forma fija en las tablas destino" name="p_ip" prompt="p_ip?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1" xmi:id="_oIlfLsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Servidor para la configuracion del servidor SMTP de email" name="p_smtpHost" prompt="p_smtpHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="11.160.121.76" xmi:id="_oIlfMcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Usuario para la configuracion del servidor SMTP de email" name="p_smtpUser" prompt="p_smtpUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_job@osinergmin.gob.pe" xmi:id="_oIlfMsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Puerto para la configuracion del servidor SMTP de email" name="p_smtpPort" prompt="p_smtpPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="25" xmi:id="_oIlfM8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Contraseña para la configuracion del servidor SMTP de email" name="p_smtpPass" prompt="p_smtpPass?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="" xmi:id="_oIlfNMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Email Origen para los mensajes de ejecución fallida" name="p_emailFrom" prompt="p_emailFrom?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_job@osinergmin.gob.pe" xmi:id="_F8O1Uc0lEe6uOK2NnY5Wsg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="QAS" xmi:id="_oIlfNcRMEe6OM7m1t4tgXQ">
+    <contextParameter comment="Fecha de corte" name="v_fechaCorte" prompt="v_fechaCorte?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value="2000-01-01 00:00:00" xmi:id="_oIlfNsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Tipo de ejecucion" name="p_tipoProceso" prompt="¿p_tipoProceso (P/R)?" promptNeeded="true" repositoryContextId="built-in" type="id_Character" value="P" xmi:id="_oIlfN8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Variable que setea el valor de la ejecucion para la tabla" name="v_idPagosRealizados" prompt="v_idPagosRealizados?" promptNeeded="false" repositoryContextId="built-in" type="id_BigDecimal" value="9999" xmi:id="_oIlfOMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Informacion del usuario a ser insertado en las tablas destino" name="p_usuario" prompt="p_usuario?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SYM_LIMPIEZA" xmi:id="_oIlfOcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Parametro de IP que se inserta de forma fija en las tablas destino" name="p_ip" prompt="p_ip?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="127.0.0.1" xmi:id="_oIlfOsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Servidor para la configuracion del servidor SMTP de email" name="p_smtpHost" prompt="p_smtpHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="sandbox.smtp.mailtrap.io" xmi:id="_oIlfPcRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Usuario para la configuracion del servidor SMTP de email" name="p_smtpUser" prompt="p_smtpUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="40988ade02550c" xmi:id="_oIlfPsRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Puerto para la configuracion del servidor SMTP de email" name="p_smtpPort" prompt="p_smtpPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2525" xmi:id="_oIlfP8RMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Contraseña para la configuracion del servidor SMTP de email" name="p_smtpPass" prompt="p_smtpPass?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:2jbpVpdN02MmltATGkGY5lik0bg5zt0HJ1UHKerhqD7Vm4LcXl8z5Hln" xmi:id="_oIlfQMRMEe6OM7m1t4tgXQ"/>
+    <contextParameter comment="Email Origen para los mensajes de ejecución fallida" name="p_emailFrom" prompt="p_emailFrom?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="talend_job@osinergmin.gob.pe" xmi:id="_F8PcYM0lEe6uOK2NnY5Wsg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f40ecbbf-ed54-4ad9-8c74-ed0198fe11ec"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Gy+RiwU4MYrRiCSH/wF6rZi8m2Aee34/oKgquWRZw3okiB7FnXm0d4jWz+wFk01r7NkxN9nOPTUt&#13;
+vBhVPf4ljw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_82dec751-c018-4166-b8a4-594458f85a7f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k5lEl8hy9Rj8y1/+nlOnHY5Ug42ePagE/CpE6ikPbj1sdVEAG+AzvyDNSpCoroMmBLu8/fFUDRrn&#13;
+tae7tdc/Mg==</DigestValue></Reference></SignedInfo><SignatureValue>OjOHqidEdibJXJsmrBYDBUPIf5bR1bsSfMwDuUwf2bkkb0bnH584SENnMSd4+gngIOtn2xkHzvqb&#13;
+Kyz2jBJ2LcET3W9mpnjLQDm6Xk2UMhA89rWrHVg7g6PBNeO5j3xVH3YhMpAlNS31zGKs2urEP7l2&#13;
+JE+ewTvAnzXNN6goyApNXMJGidcdQ2TSJZ5Bh2gesxEMrBCVZZzqCdmJ+ePmQe8qfzK9dnexCaNH&#13;
+IXcSSlfoh2R4tHQTFxiBxA00Yk6PutKRSFbvi7cl8jKIJm7cENGhHFwGfVHsj6pvSBjPX+3POMdd&#13;
+O1H0zyojIGv+YgQ2aHBmNaCYL7RLuXrKp9NCog==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_82dec751-c018-4166-b8a4-594458f85a7f" Target="#_f40ecbbf-ed54-4ad9-8c74-ed0198fe11ec"><Timestamp>2024-08-22 19:58:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
