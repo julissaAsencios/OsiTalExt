@@ -1,0 +1,92 @@
+{
+  "itemId" : "_fqpcsFmUEe63ac1M-VRR_Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_3mXwMNZ-Ee6QtaGAOAd8aA",
+    "parameterList" : [ {
+      "id" : "_cZCmwNZ_Ee6QtaGAOAd8aA",
+      "name" : "us_sym_bi_or_SYM_Server"
+    }, {
+      "id" : "_cZCmwdZ_Ee6QtaGAOAd8aA",
+      "name" : "us_sym_bi_or_SYM_Login"
+    }, {
+      "id" : "_cZLJoNZ_Ee6QtaGAOAd8aA",
+      "name" : "us_sym_bi_or_SYM_Password"
+    }, {
+      "id" : "_cZLJodZ_Ee6QtaGAOAd8aA",
+      "name" : "us_sym_bi_or_SYM_AdditionalParams"
+    }, {
+      "id" : "_cZLJotZ_Ee6QtaGAOAd8aA",
+      "name" : "us_sym_bi_or_SYM_Sid"
+    }, {
+      "id" : "_cZLJo9Z_Ee6QtaGAOAd8aA",
+      "name" : "us_sym_bi_or_SYM__Port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_sLWXANaBEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_OIWoANaCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_Password"
+    }, {
+      "id" : "_OIWoAdaCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_AdditionalParams"
+    }, {
+      "id" : "_OIWoAtaCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_TARGET_Login"
+    }, {
+      "id" : "_OIWoA9aCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_Schema"
+    }, {
+      "id" : "_OIWoBNaCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_Port"
+    }, {
+      "id" : "_OIWoBdaCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_Sid"
+    }, {
+      "id" : "_OIWoBtaCEe6X0qTOScZYrg",
+      "name" : "es_sym_bi_ES_SYM_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_pg8w0NaCEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_MpirMNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Sid"
+    }, {
+      "id" : "_MpirMdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Password"
+    }, {
+      "id" : "_MpirMtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Server"
+    }, {
+      "id" : "_MpirM9aDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Port"
+    }, {
+      "id" : "_MpirNNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_AdditionalParams"
+    }, {
+      "id" : "_MpirNdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Schema"
+    }, {
+      "id" : "_MpirNtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Login"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_S5MEUNaDEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_UwlDwNaDEe6X0qTOScZYrg",
+      "name" : "ES_GLEGAL_BI_Port"
+    }, {
+      "id" : "_UwlDwtaDEe6X0qTOScZYrg",
+      "name" : "ES_GLEGAL_BI_Schema"
+    }, {
+      "id" : "_UwlDxdaDEe6X0qTOScZYrg",
+      "name" : "ES_GLEGAL_BI_Login"
+    }, {
+      "id" : "_UwlDxtaDEe6X0qTOScZYrg",
+      "name" : "ES_GLEGAL_BI_AdditionalParams"
+    } ]
+  } ]
+}

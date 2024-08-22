@@ -1,0 +1,79 @@
+{
+  "itemId" : "_aSTokLP1Ee6Ic_Edwvd4Xw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_pg8w0NaCEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_My2YMNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Sid"
+    }, {
+      "id" : "_My2YMdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Password"
+    }, {
+      "id" : "_My2YMtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Server"
+    }, {
+      "id" : "_My2YM9aDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Port"
+    }, {
+      "id" : "_My2YNNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_AdditionalParams"
+    }, {
+      "id" : "_My2YNdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Schema"
+    }, {
+      "id" : "_My2YNtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Login"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_pg8w0NaCEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_My2YN9aDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Sid"
+    }, {
+      "id" : "_My2YONaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Password"
+    }, {
+      "id" : "_My2YOdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Server"
+    }, {
+      "id" : "_My2YOtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Port"
+    }, {
+      "id" : "_My2YO9aDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_AdditionalParams"
+    }, {
+      "id" : "_My2YPNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Schema"
+    }, {
+      "id" : "_My2YPdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Login"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_pg8w0NaCEe6X0qTOScZYrg",
+    "parameterList" : [ {
+      "id" : "_My2YPtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Sid"
+    }, {
+      "id" : "_My2YP9aDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Password"
+    }, {
+      "id" : "_My2YQNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Server"
+    }, {
+      "id" : "_My2YQdaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Port"
+    }, {
+      "id" : "_My2YQtaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_AdditionalParams"
+    }, {
+      "id" : "_My2YQ9aDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Schema"
+    }, {
+      "id" : "_My2YRNaDEe6X0qTOScZYrg",
+      "name" : "us_glegal_bi_or_GLEGAL_Login"
+    } ]
+  } ]
+}

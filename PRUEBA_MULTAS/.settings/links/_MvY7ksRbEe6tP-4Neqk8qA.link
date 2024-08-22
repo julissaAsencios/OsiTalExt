@@ -1,0 +1,226 @@
+{
+  "itemId" : "_MvY7ksRbEe6tP-4Neqk8qA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_3tmsMMRMEe6OM7m1t4tgXQ",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_3tmsM8RMEe6OM7m1t4tgXQ",
+      "name" : "p_ip"
+    }, {
+      "id" : "_3tmsNMRMEe6OM7m1t4tgXQ",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_3tmsNcRMEe6OM7m1t4tgXQ",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_3tmsNsRMEe6OM7m1t4tgXQ",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_3tmsN8RMEe6OM7m1t4tgXQ",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_3tmsOMRMEe6OM7m1t4tgXQ",
+      "name" : "v_idSeqTabla"
+    }, {
+      "id" : "_359bIM0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailsExito"
+    }, {
+      "id" : "_359bIc0pEe6uOK2NnY5Wsg",
+      "name" : "v_ejecucionProceso"
+    }, {
+      "id" : "_359bIs0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailFalla"
+    }, {
+      "id" : "_359bI80pEe6uOK2NnY5Wsg",
+      "name" : "p_emailsArchivoHistoria"
+    }, {
+      "id" : "_fXcYoNzBEe6rUKSOQrE9Fg",
+      "name" : "p_SymBDS_Schema"
+    }, {
+      "id" : "_fXcYodzBEe6rUKSOQrE9Fg",
+      "name" : "p_SymODS_Schema"
+    }, {
+      "id" : "_fXcYotzBEe6rUKSOQrE9Fg",
+      "name" : "p_Sym_Schema"
+    }, {
+      "id" : "_fXcYo9zBEe6rUKSOQrE9Fg",
+      "name" : "p_SymSTG_Schema"
+    }, {
+      "id" : "_y3MvIOJiEe6ICuUzmWo7xA",
+      "name" : "p_cabeceraArchivo"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_MvY7kcRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_-IQJYM0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpPort"
+    }, {
+      "id" : "_-IQJYc0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpPass"
+    }, {
+      "id" : "_-IQJYs0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpUser"
+    }, {
+      "id" : "_-IQJY80pEe6uOK2NnY5Wsg",
+      "name" : "p_emailFrom"
+    }, {
+      "id" : "_-IQwcM0pEe6uOK2NnY5Wsg",
+      "name" : "v_idPagosRealizados"
+    }, {
+      "id" : "_-IQwcc0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpHost"
+    } ]
+  }, {
+    "contextName" : "QAS",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_3tmsTsRMEe6OM7m1t4tgXQ",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_3tmsUcRMEe6OM7m1t4tgXQ",
+      "name" : "p_ip"
+    }, {
+      "id" : "_3tmsUsRMEe6OM7m1t4tgXQ",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_3tmsU8RMEe6OM7m1t4tgXQ",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_3tmsVMRMEe6OM7m1t4tgXQ",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_3tmsVcRMEe6OM7m1t4tgXQ",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_3tmsVsRMEe6OM7m1t4tgXQ",
+      "name" : "v_idSeqTabla"
+    }, {
+      "id" : "_359bJM0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailsExito"
+    }, {
+      "id" : "_359bJc0pEe6uOK2NnY5Wsg",
+      "name" : "v_ejecucionProceso"
+    }, {
+      "id" : "_359bJs0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailFalla"
+    }, {
+      "id" : "_359bJ80pEe6uOK2NnY5Wsg",
+      "name" : "p_emailsArchivoHistoria"
+    }, {
+      "id" : "_fXcYpNzBEe6rUKSOQrE9Fg",
+      "name" : "p_SymBDS_Schema"
+    }, {
+      "id" : "_fXcYpdzBEe6rUKSOQrE9Fg",
+      "name" : "p_SymODS_Schema"
+    }, {
+      "id" : "_fXcYptzBEe6rUKSOQrE9Fg",
+      "name" : "p_Sym_Schema"
+    }, {
+      "id" : "_fXcYp9zBEe6rUKSOQrE9Fg",
+      "name" : "p_SymSTG_Schema"
+    }, {
+      "id" : "_y3MvIeJiEe6ICuUzmWo7xA",
+      "name" : "p_cabeceraArchivo"
+    } ]
+  }, {
+    "contextName" : "QAS",
+    "repoId" : "_MvY7kcRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_-IQwcs0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpPort"
+    }, {
+      "id" : "_-IQwc80pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpPass"
+    }, {
+      "id" : "_-IQwdM0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpUser"
+    }, {
+      "id" : "_-IQwdc0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailFrom"
+    }, {
+      "id" : "_-IQwds0pEe6uOK2NnY5Wsg",
+      "name" : "v_idPagosRealizados"
+    }, {
+      "id" : "_-IQwd80pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpHost"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_3tmsbMRMEe6OM7m1t4tgXQ",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_3tmsb8RMEe6OM7m1t4tgXQ",
+      "name" : "p_ip"
+    }, {
+      "id" : "_3tmscMRMEe6OM7m1t4tgXQ",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_3tmsccRMEe6OM7m1t4tgXQ",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_3tmscsRMEe6OM7m1t4tgXQ",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_3tmsc8RMEe6OM7m1t4tgXQ",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_3tmsdMRMEe6OM7m1t4tgXQ",
+      "name" : "v_idSeqTabla"
+    }, {
+      "id" : "_35-CMM0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailsExito"
+    }, {
+      "id" : "_35-CMc0pEe6uOK2NnY5Wsg",
+      "name" : "v_ejecucionProceso"
+    }, {
+      "id" : "_35-CMs0pEe6uOK2NnY5Wsg",
+      "name" : "p_emailFalla"
+    }, {
+      "id" : "_35-CM80pEe6uOK2NnY5Wsg",
+      "name" : "p_emailsArchivoHistoria"
+    }, {
+      "id" : "_fXcYqNzBEe6rUKSOQrE9Fg",
+      "name" : "p_SymBDS_Schema"
+    }, {
+      "id" : "_fXcYqdzBEe6rUKSOQrE9Fg",
+      "name" : "p_SymODS_Schema"
+    }, {
+      "id" : "_fXcYqtzBEe6rUKSOQrE9Fg",
+      "name" : "p_Sym_Schema"
+    }, {
+      "id" : "_fXcYq9zBEe6rUKSOQrE9Fg",
+      "name" : "p_SymSTG_Schema"
+    }, {
+      "id" : "_y3MvIuJiEe6ICuUzmWo7xA",
+      "name" : "p_cabeceraArchivo"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_MvY7kcRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_-IQweM0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpPort"
+    }, {
+      "id" : "_-IQwec0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpPass"
+    }, {
+      "id" : "_-IQwes0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpUser"
+    }, {
+      "id" : "_-IQwe80pEe6uOK2NnY5Wsg",
+      "name" : "p_emailFrom"
+    }, {
+      "id" : "_-IQwfM0pEe6uOK2NnY5Wsg",
+      "name" : "v_idPagosRealizados"
+    }, {
+      "id" : "_-IQwfc0pEe6uOK2NnY5Wsg",
+      "name" : "p_smtpHost"
+    } ]
+  } ]
+}

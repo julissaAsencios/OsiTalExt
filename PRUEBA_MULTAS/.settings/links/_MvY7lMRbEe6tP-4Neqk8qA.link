@@ -1,0 +1,128 @@
+{
+  "itemId" : "_MvY7lMRbEe6tP-4Neqk8qA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_xQBDwI2QEe6DMd4kZ3CC0w",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_u7vgUJL8Ee6DYIjgZGAEnQ",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_cNdjYJYJEe6nzOb20q2WWA",
+      "name" : "v_idSeqTabla"
+    }, {
+      "id" : "_VVuLUJYQEe6nzOb20q2WWA",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_VVuLUZYQEe6nzOb20q2WWA",
+      "name" : "p_ip"
+    }, {
+      "id" : "_51oIgNvNEe6L4_P18Eih5A",
+      "name" : "p_emailsArchivoHistoria"
+    }, {
+      "id" : "_51oIgdvNEe6L4_P18Eih5A",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_51oIgtvNEe6L4_P18Eih5A",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_8_254Ny_Ee6rUKSOQrE9Fg",
+      "name" : "p_emailsExito"
+    }, {
+      "id" : "_8_254dy_Ee6rUKSOQrE9Fg",
+      "name" : "p_SymBDS_Schema"
+    }, {
+      "id" : "_8_254ty_Ee6rUKSOQrE9Fg",
+      "name" : "p_SymODS_Schema"
+    }, {
+      "id" : "_8_2549y_Ee6rUKSOQrE9Fg",
+      "name" : "p_Sym_Schema"
+    }, {
+      "id" : "_8_255Ny_Ee6rUKSOQrE9Fg",
+      "name" : "p_emailFalla"
+    }, {
+      "id" : "_8_255dy_Ee6rUKSOQrE9Fg",
+      "name" : "p_SymSTG_Schema"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_MvY7kcRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_i2LxMKRqEe6HPek0Zajljw",
+      "name" : "p_smtpPort"
+    }, {
+      "id" : "_i2LxMaRqEe6HPek0Zajljw",
+      "name" : "p_smtpPass"
+    }, {
+      "id" : "_i2LxMqRqEe6HPek0Zajljw",
+      "name" : "p_smtpUser"
+    }, {
+      "id" : "_i2LxM6RqEe6HPek0Zajljw",
+      "name" : "p_smtpHost"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_xQBDwI2QEe6DMd4kZ3CC0w",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_u7vgUJL8Ee6DYIjgZGAEnQ",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_cNdjYJYJEe6nzOb20q2WWA",
+      "name" : "v_idSeqTabla"
+    }, {
+      "id" : "_VVuLUJYQEe6nzOb20q2WWA",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_VVuLUZYQEe6nzOb20q2WWA",
+      "name" : "p_ip"
+    }, {
+      "id" : "_51oIhtvNEe6L4_P18Eih5A",
+      "name" : "p_emailsArchivoHistoria"
+    }, {
+      "id" : "_51oIh9vNEe6L4_P18Eih5A",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_51oIiNvNEe6L4_P18Eih5A",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_8_255ty_Ee6rUKSOQrE9Fg",
+      "name" : "p_emailsExito"
+    }, {
+      "id" : "_8_2559y_Ee6rUKSOQrE9Fg",
+      "name" : "p_SymBDS_Schema"
+    }, {
+      "id" : "_8_256Ny_Ee6rUKSOQrE9Fg",
+      "name" : "p_SymODS_Schema"
+    }, {
+      "id" : "_8_256dy_Ee6rUKSOQrE9Fg",
+      "name" : "p_Sym_Schema"
+    }, {
+      "id" : "_8_256ty_Ee6rUKSOQrE9Fg",
+      "name" : "p_emailFalla"
+    }, {
+      "id" : "_8_2569y_Ee6rUKSOQrE9Fg",
+      "name" : "p_SymSTG_Schema"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_MvY7kcRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_i2LxNKRqEe6HPek0Zajljw",
+      "name" : "p_smtpPort"
+    }, {
+      "id" : "_i2MYQKRqEe6HPek0Zajljw",
+      "name" : "p_smtpPass"
+    }, {
+      "id" : "_i2MYQaRqEe6HPek0Zajljw",
+      "name" : "p_smtpUser"
+    }, {
+      "id" : "_i2MYQqRqEe6HPek0Zajljw",
+      "name" : "p_smtpHost"
+    } ]
+  } ]
+}

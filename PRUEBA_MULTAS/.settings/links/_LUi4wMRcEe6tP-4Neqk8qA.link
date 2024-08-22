@@ -1,0 +1,154 @@
+{
+  "itemId" : "_LUi4wMRcEe6tP-4Neqk8qA",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_rH31oMEpEe6qvckFFtiqPw",
+    "parameterList" : [ {
+      "id" : "_G0l5cMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Login"
+    }, {
+      "id" : "_G0l5ccRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Port"
+    }, {
+      "id" : "_G0l5csRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_AdditionalParams"
+    }, {
+      "id" : "_G0l5c8RNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Server"
+    }, {
+      "id" : "_G0l5dMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Sid"
+    }, {
+      "id" : "_G0l5dcRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Schema"
+    }, {
+      "id" : "_G0l5dsRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Password"
+    } ]
+  }, {
+    "contextName" : "DEV",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_V1S2sMSIEe6sibeMWn0iHA",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_V1S2scSIEe6sibeMWn0iHA",
+      "name" : "p_ip"
+    }, {
+      "id" : "_V1S2ssSIEe6sibeMWn0iHA",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_V1S2s8SIEe6sibeMWn0iHA",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_V1S2tMSIEe6sibeMWn0iHA",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_V1S2tcSIEe6sibeMWn0iHA",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_V1S2tsSIEe6sibeMWn0iHA",
+      "name" : "v_idSeqTabla"
+    } ]
+  }, {
+    "contextName" : "QAS",
+    "repoId" : "_rH31oMEpEe6qvckFFtiqPw",
+    "parameterList" : [ {
+      "id" : "_G0l5fsRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Login"
+    }, {
+      "id" : "_G0l5f8RNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Port"
+    }, {
+      "id" : "_G0l5gMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_AdditionalParams"
+    }, {
+      "id" : "_G0l5gcRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Server"
+    }, {
+      "id" : "_G0l5gsRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Sid"
+    }, {
+      "id" : "_G0l5g8RNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Schema"
+    }, {
+      "id" : "_G0l5hMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Password"
+    } ]
+  }, {
+    "contextName" : "QAS",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_V1S2t8SIEe6sibeMWn0iHA",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_V1S2uMSIEe6sibeMWn0iHA",
+      "name" : "p_ip"
+    }, {
+      "id" : "_V1S2ucSIEe6sibeMWn0iHA",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_V1S2usSIEe6sibeMWn0iHA",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_V1S2u8SIEe6sibeMWn0iHA",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_V1S2vMSIEe6sibeMWn0iHA",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_V1S2vcSIEe6sibeMWn0iHA",
+      "name" : "v_idSeqTabla"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_rH31oMEpEe6qvckFFtiqPw",
+    "parameterList" : [ {
+      "id" : "_G0l5jMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Login"
+    }, {
+      "id" : "_G0l5jcRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Port"
+    }, {
+      "id" : "_G0l5jsRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_AdditionalParams"
+    }, {
+      "id" : "_G0l5j8RNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Server"
+    }, {
+      "id" : "_G0l5kMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Sid"
+    }, {
+      "id" : "_G0l5kcRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Schema"
+    }, {
+      "id" : "_G0mggMRNEe6OM7m1t4tgXQ",
+      "name" : "orcl_O19D01_ES_BDSSYM_BI_WR_Password"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_MvY7kMRbEe6tP-4Neqk8qA",
+    "parameterList" : [ {
+      "id" : "_V1S2vsSIEe6sibeMWn0iHA",
+      "name" : "p_tipoProceso"
+    }, {
+      "id" : "_V1S2v8SIEe6sibeMWn0iHA",
+      "name" : "p_ip"
+    }, {
+      "id" : "_V1S2wMSIEe6sibeMWn0iHA",
+      "name" : "p_nombreArchivoHistoria"
+    }, {
+      "id" : "_V1S2wcSIEe6sibeMWn0iHA",
+      "name" : "v_fechaCorte"
+    }, {
+      "id" : "_V1S2wsSIEe6sibeMWn0iHA",
+      "name" : "p_usuario"
+    }, {
+      "id" : "_V1S2w8SIEe6sibeMWn0iHA",
+      "name" : "p_carpetaArchivos"
+    }, {
+      "id" : "_V1S2xMSIEe6sibeMWn0iHA",
+      "name" : "v_idSeqTabla"
+    } ]
+  } ]
+}
