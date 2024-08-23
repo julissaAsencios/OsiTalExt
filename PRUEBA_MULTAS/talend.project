@@ -4,4 +4,6 @@
     <migrationTask xmi:id="_8qfNYGDCEe-bvv0LYOkVFA" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_8o2OomDCEe-bvv0LYOkVFA" login="sandroromero@osinergmin.gob.pe" firstName="Sandro" lastName="Romero" type="DI"/>
+  <TalendProperties:User xmi:id="_22S8Q2FzEe-JS92U6vtZ-A" login="jasencios@osinergmin.gob.pe" firstName="Julissa" lastName="Asencios" type="DI"/>
+  <TalendProperties:User xmi:id="_22S8RGFzEe-JS92U6vtZ-A" login="g.dba@osinergmin.gob.pe" firstName="DBA" lastName="Osinergmin" type="DI"/>
 </xmi:XMI>
