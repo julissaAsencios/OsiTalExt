@@ -10400,7 +10400,7 @@
     <elementParameter field="TEXT" name="PERSONAL_NAME" value="&quot;sender&quot;" show="false"/>
     <elementParameter field="TEXT" name="CC" value=""/>
     <elementParameter field="TEXT" name="BCC" value=""/>
-    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Error: Task ReplicaciónNPS&quot;"/>
+    <elementParameter field="TEXT" name="SUBJECT" value="&quot;Error: Task ReplicaciónNPS &quot;"/>
     <elementParameter field="MEMO_MESSAGE" name="MESSAGE" value="&quot;El error es: &quot; + (String)globalMap.get(&quot;emailMessage&quot;) + &quot;\n&quot; +&#xD;&#xA;&quot;El job comenzó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStart_1_STARTTIME&quot;))) + &quot;\n&quot; +&#xD;&#xA;&quot;El job terminó a las: &quot; + TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;, new Date((Long)globalMap.get(&quot;tChronometerStop_1_STOPTIME&quot;)))"/>
     <elementParameter field="CHECK" name="CHECK_ATTACHMENT" value="true"/>
     <elementParameter field="TABLE" name="ATTACHMENTS"/>
